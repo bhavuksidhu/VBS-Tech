@@ -1,0 +1,403 @@
+import React from 'react'
+
+export default function LandingPage() {
+  return (
+    <div>
+    <section className=''>
+    <div className='container'>
+        <div className='row'>
+            <div className='col-lg-6 d-flex mt-5 justify-content-center align-items-center'>
+            <div>
+            <div className='heading'>
+            <h1 className='heading_text_content'>
+We scale brands
+            </h1>
+            <p className='paragraph'>
+            Our track record speaks for itself – our clients have seen an average YoY revenue increase of 90%. Let us put our expertise to work for your business and see the results for yourself. 
+            </p>
+            </div>
+            <div>
+                <button className='button_for_start'> 
+                Get started
+                </button>
+            </div> 
+            </div>
+               
+            </div>
+            <div className='col-lg-6 mt-5'>
+<div className='landing_page_iamge'>
+    <img src='/Assets/footer/landingpage.jpg'/>
+</div>
+</div>
+        </div>
+      </div>
+    </section>
+    <section className='conatiner'>
+        <div className=''>
+        <hr />
+        <div className='d-flex containers'>
+      
+        <div className='google'>
+        <h2>CERTIFIED PARTNERS</h2>
+        </div>       
+           
+               <div className='google'>
+                <img src='/Assets/footer/imagesgoogle.jpeg'/>
+               </div>
+               <div className='google'>
+                <img src='/Assets/footer/imagesgoogle.jpeg'/>
+               </div>
+               <div className='google'>
+                <img src='/Assets/footer/imagesgoogle.jpeg'/>
+               </div>
+               <div className='google'>
+                <img src='/Assets/footer/imagesgoogle.jpeg'/>
+               </div>
+             
+            </div>
+            
+        </div>
+        <hr />
+    </section>
+     <section className='advertisment_section container'>
+      <div>
+        <h2>What we can do to help you</h2>
+      </div>
+      <div className='row add_new'>
+        <div className='col-lg-4 col-md-12 col-sm-12'>
+<div className='containet_holder'>
+ 
+  <div className='icon_for_content w-100 d-flex justify-content-center'>
+  <div className='abc'>
+  <img src='/Assets/footer/imagesphone.png' />
+  </div>
+  </div>
+  <div className='heading_name'>
+  <h2>Facebook Advertising</h2>
+</div>
+  <div className='paragraph_content'>
+    <p>We specialize in local business Facebook Ads that bring in customers, not just traffic. Let us tailor a strategy to your needs and goals, and see real results for your business. </p>
+  </div>
+</div>
+        </div>
+        <div className='col-lg-4 col-md-12 col-sm-12'>
+<div className='containet_holder'>
+ 
+  <div className='icon_for_content w-100 d-flex justify-content-center'>
+  <div className='abc'>
+  <img src='/Assets/footer/imagesphone.png' />
+  </div>
+  </div>
+  <div className='heading_name'>
+  <h2>Facebook Advertising</h2>
+</div>
+  <div className='paragraph_content'>
+    <p>We specialize in local business Facebook Ads that bring in customers, not just traffic. Let us tailor a strategy to your needs and goals, and see real results for your business. </p>
+  </div>
+</div>
+        </div>
+        <div className='col-lg-4 col-md-12 col-sm-12'>
+<div className='containet_holder'>
+ 
+  <div className='icon_for_content w-100 d-flex justify-content-center'>
+  <div className='abc'>
+  <img src='/Assets/footer/imagesphone.png' />
+  </div>
+  </div>
+  <div className='heading_name'>
+  <h2>Facebook Advertising</h2>
+</div>
+  <div className='paragraph_content'>
+    <p>We specialize in local business Facebook Ads that bring in customers, not just traffic. Let us tailor a strategy to your needs and goals, and see real results for your business. </p>
+  </div>
+</div>
+        </div>
+      </div>
+     </section>
+     <section className='container '>
+     <div className='row add_new'>
+     <div className='col-lg-4 col-md-12 col-sm-12'>
+<div className='containet_holder'>
+ 
+  <div className='icon_for_content w-100 d-flex justify-content-center'>
+  <div className='abc'>
+  <img src='/Assets/footer/imagesphone.png' />
+  </div>
+  </div>
+  <div className='heading_name'>
+  <h2>Facebook Advertising</h2>
+</div>
+  <div className='paragraph_content'>
+    <p>We specialize in local business Facebook Ads that bring in customers, not just traffic. Let us tailor a strategy to your needs and goals, and see real results for your business. </p>
+  </div>
+</div>
+        </div>
+        <div className='col-lg-4 col-md-12 col-sm-12'>
+<div className='containet_holder'>
+ 
+  <div className='icon_for_content w-100 d-flex justify-content-center'>
+  <div className='abc'>
+  <img src='/Assets/footer/imagesphone.png' />
+  </div>
+  </div>
+  <div className='heading_name'>
+  <h2>Facebook Advertising</h2>
+</div>
+  <div className='paragraph_content'>
+    <p>We specialize in local business Facebook Ads that bring in customers, not just traffic. Let us tailor a strategy to your needs and goals, and see real results for your business. </p>
+  </div>
+</div>
+        </div>
+        <div className='col-lg-4 col-md-12 col-sm-12'>
+<div className='containet_holder'>
+ 
+  <div className='icon_for_content w-100 d-flex justify-content-center'>
+  <div className='abc'>
+  <img src='/Assets/footer/imagesphone.png' />
+  </div>
+  </div>
+  <div className='heading_name'>
+  <h2>Facebook Advertising</h2>
+</div>
+  <div className='paragraph_content'>
+    <p>We specialize in local business Facebook Ads that bring in customers, not just traffic. Let us tailor a strategy to your needs and goals, and see real results for your business. </p>
+  </div>
+</div>
+        </div>
+      </div>
+     </section>
+     <section className='container'>
+    <div className=''>
+        <div className='row'>
+            <div className='col-lg-6 d-flex mt-5 justify-content-center align-items-center'>
+            <div>
+            <div className='heading'>
+            <h1 className='heading_text_content'>
+when You Win I win 
+            </h1>
+            <p className='paragraph'>
+
+            At Collide Digital, we believe that every local business can achieve big things. Our digital marketing agency specializes in crafting customized strategies that prioritize people and drive results. Let us help put your business on the map and propel you to the next stage of your journey.             </p>
+            </div>
+            <div>
+                <button className='button_for_start'> 
+               Contact Us
+                </button>
+            </div> 
+            </div>
+               
+            </div>
+            <div className='col-lg-6 mt-5'>
+<div className='landing_page_ section_cont'>
+<div className='main_class_conts'>
+  <div className='img_section'>
+  <img src='/Assets/footer/Color-08.png' />
+  </div>
+  <div className='section_conts'>
+    <div className='leaf'>
+      <h2 className='mb-0'>Leaf</h2>
+    </div>
+    <div className='add_heading'>
+      <h2>4X Email Sales</h2>
+    </div>
+  </div>
+</div>
+<div className='main_class_conts'>
+  <div className='img_section'>
+  <img src='/Assets/footer/Color-08.png' />
+  </div>
+  <div className='section_conts'>
+  <div className='leaf'>
+      <h2 className='mb-0'>Human Optimization Center Walnut Creek</h2>
+    </div>
+    <div className='add_heading'>
+      <h2>2X Appointments</h2>
+    </div>
+  </div>
+</div>
+<div className='main_class_conts'>
+  <div className='img_section'>
+    <img src='/Assets/footer/Color-08.png' />
+  </div>
+  <div className='section_conts'>
+  <div className='leaf'>
+      <h2 className='mb-0'>PLTA Speech</h2>
+    </div>
+    <div className='add_heading'>
+      <h2>3X Organic Traffic</h2>
+    </div>
+  </div>
+</div>
+   
+</div>
+</div>
+        </div>
+      </div>
+    </section>
+    <section className='container'>
+      <div className='row'>
+        <div className='col-lg-6 col-md-12 col-sm-12'>
+          <div className='position-relative add_costume_Increase'>
+            <div className='add_website_conversions'>
+             <h2>Increase in website conversions</h2>
+            </div>
+            <div className=''>
+                <span>
+                  <div></div>
+                </span>
+              </div>
+              <div className='Everything'>
+                <p>“Everything has improved. The redesign we did represents our brand, and the Facebook ads has made us a market leader. The SEO work continues to bring people to our site with content that shows improvement with each monthly report.” </p>
+              </div>
+              <div>
+                <div className='add_website_conversions_Strategies'>
+                  <h2>Strategies:</h2>
+                </div>
+                <ul>
+      <li><i class="fa-solid fa-check pe-3" style={{color: "#FFD43B",}}></i> Facebook Ads</li>
+      <li><i class="fa-solid fa-check pe-3" style={{color: "#FFD43B",}}></i> Google</li>
+      <li><i class="fa-solid fa-check pe-3" style={{color: "#FFD43B",}}></i> Content Marketing</li>
+      <li><i class="fa-solid fa-check pe-3" style={{color: "#FFD43B",}}></i> SEO</li>
+    </ul>
+              </div>
+              <div className='mt-4'>
+              <button className='button_for_start'>Get started</button>
+
+              </div>
+          </div>
+        </div>
+        <div className='col-lg-6 col-md-12 col-sm-12'>
+          <div className=''>
+            <img src='/Assets/footer/FTP-works.jpg'></img>
+          </div> 
+        </div>
+      </div>
+    </section>
+    <section className='container'>
+      <div className='row'>
+      <div className='col-lg-6 col-md-12 col-sm-12'>
+          <div className=''>
+            <img src='/Assets/footer/FTP-works.jpg'></img>
+          </div> 
+        </div>
+        <div className='col-lg-6 col-md-12 col-sm-12'>
+          <div className='position-relative add_costume_Increase'>
+            <div className='add_website_conversions'>
+             <h2>Increase in website conversions</h2>
+            </div>
+            <div className=''>
+                <span>
+                  <div></div>
+                </span>
+              </div>
+              <div className='Everything'>
+                <p>“Everything has improved. The redesign we did represents our brand, and the Facebook ads has made us a market leader. The SEO work continues to bring people to our site with content that shows improvement with each monthly report.” </p>
+              </div>
+              <div>
+                <div className='add_website_conversions_Strategies'>
+                  <h2>Strategies:</h2>
+                </div>
+                <ul>
+      <li><i class="fa-solid fa-check pe-3" style={{color: "#FFD43B",}}></i> Facebook Ads</li>
+      <li><i class="fa-solid fa-check pe-3" style={{color: "#FFD43B",}}></i> Google</li>
+      <li><i class="fa-solid fa-check pe-3" style={{color: "#FFD43B",}}></i> Content Marketing</li>
+      <li><i class="fa-solid fa-check pe-3" style={{color: "#FFD43B",}}></i> SEO</li>
+    </ul>
+              </div>
+              <div className='mt-4'>
+              <button className='button_for_start'>Get started</button>
+
+              </div>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+    <section className=''>
+    <div className=''>
+        <div className='heading_section'>
+          <h2 className='text-center p-3'>You should talk to us if you are....</h2>
+        </div>
+      </div>
+    </section>
+    <section className='container'>
+      <div className='row'>
+        <div className='col-lg-3 col-md-12 col-sm-12 border border-primary'>
+<div className='add_frustrated m-4'>
+  <h2>Frustrated with low online leads or sales</h2>
+</div>
+        </div>
+        <div className='col-lg-3 col-md-12 col-sm-12  border border-primary'>
+        <div className='add_frustrated m-4'>
+  <h2>Frustrated with low online leads or sales</h2>
+</div>
+          </div>
+          <div className='col-lg-3 col-md-12 col-sm-12 border border-primary'>
+          <div className='add_frustrated m-4'>
+  <h2>Frustrated with low online leads or sales</h2>
+</div>
+          </div>
+          <div className='col-lg-3 col-md-12 col-sm-12 border border-primary'>
+          <div className='add_frustrated m-4'>
+  <h2>Frustrated with low online leads or sales</h2>
+</div>
+          </div>
+      </div>
+    </section>
+    <section className='container'>
+      <div className='row mb-4'>
+        <div className='col-lg-3 col-md-12 col-sm-12 border border-primary'>
+<div className='add_frustrated m-4'>
+  <h2>Frustrated with low online leads or sales</h2>
+</div>
+        </div>
+        <div className='col-lg-3 col-md-12 col-sm-12 border border-primary'>
+        <div className='add_frustrated m-4'>
+  <h2>Frustrated with low online leads or sales</h2>
+</div>
+          </div>
+          <div className='col-lg-3 col-md-12 col-sm-12 border border-primary'>
+          <div className='add_frustrated m-4'>
+  <h2>Frustrated with low online leads or sales</h2>
+</div>
+          </div>
+          <div className='col-lg-3 col-md-12 col-sm-12 border border-primary'>
+          <div className='add_frustrated m-4'>
+  <h2>Frustrated with low online leads or sales</h2>
+</div>
+          </div>
+      </div>
+    </section>
+    <section>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-lg-6 col-md-12 col-sm-12'>
+            <div>
+              <img  src='/Assets/footer/TDV_M86_04-1536x1024 (1).png'/>
+            </div>
+          </div>
+          <div className='col-lg-6  col-md-12 col-sm-12'>
+            <div className='main_containt'>
+              <div className='process'>
+                <span>Our process</span>
+              </div>
+              <div className='expect'>
+                <h2> What to expect</h2>
+              </div>
+              <div className='Outline'>
+<h2>1. Outline your business goals</h2>
+              </div>
+              <div className='Collide'>
+                <p>Collide Digital will collaborate with you to create a detailed business brief that defines your specific needs and objectives.</p>
+              </div>
+              <div className='btn'>
+                <button  className='button_for_start'>Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+  )
+}
