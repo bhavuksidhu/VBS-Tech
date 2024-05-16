@@ -79,7 +79,7 @@
 
  /*---------footer---------*/
  footer {
-   background-color: #222023;
+   background-color: black;
    /* background-image: -webkit-linear-gradient( top, #222023, #1e2c47 );
 background-image: -moz-linear-gradient( top, #222023, #1e2c47 );
 background-image: -o-linear-gradient( top, #222023, #1e2c47 );
@@ -90,7 +90,7 @@ background-image: linear-gradient( to bottom, #222023, #1e2c47 ); */
  }
 
  .table {
-   --bs-table-bg: #222023 !important;
+   --bs-table-bg: black !important;
 
  }
 
@@ -235,14 +235,22 @@ background-image: linear-gradient( to bottom, #222023, #1e2c47 ); */
  }
 
  .landing_page_iamge {
-   max-width: 83%;
+   max-width: 95%;
  }
-
+.ctns{
+margin: 0px 26px 0px 36px !important;
+}
  .button_for_start {
-   color: white;
    background-color: black;
-   padding: 11px;
-   font-size: x-large;
+   padding-left: 46px;
+    padding-right: 46px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: circular air, Sans-serif;
+    font-size: 1.15em;
+    font-weight: 400;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    color: #fff;
  }
 
  .button_for_start1 {
@@ -256,7 +264,14 @@ background-image: linear-gradient( to bottom, #222023, #1e2c47 ); */
  .google img {
    max-width: 132px;
  }
-
+.google h2{
+  font-family: adieu light, Sans-serif;
+    font-size: 21px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    display: flex;
+    justify-content: center;
+}
  .containers {
    display: grid;
    /* grid-template-columns: repeat(5, 1fr); */
@@ -267,7 +282,9 @@ background-image: linear-gradient( to bottom, #222023, #1e2c47 ); */
    /* grid-gap: 7rem; */
    padding: 10px;
  }
-
+.containerss{
+  justify-content:space-between !important;
+}
  /* .google{
   flex: 1 0 140px
 } */
@@ -699,4 +716,34 @@ background-image: linear-gradient( to bottom, #222023, #1e2c47 ); */
 }
 .nav-link .active {
   border-bottom: 2px solid orange;
+}
+.attachment-large {
+  max-width: 25% !important;
+}
+.add_element_news_background{
+  background-color: #f5f3f1;
+}
+.google12{
+  width: 16%;
+  color: white;
+  background-color: black;
+}
+.paragraph{
+  color: var(--e-global-color-624dec5);
+    font-family: circular air, Sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.heading_text_content{
+  color: #000;
+    font-family: circular air, Sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.line{
+margin: 0px;
+}
+.add_new_padding{
+  padding-bottom: 100px;
 }
