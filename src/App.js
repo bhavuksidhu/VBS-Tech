@@ -5,6 +5,7 @@ import LandingPage from './LandingPage/LandingPage';
 import SocialMedia from './Component/SocialMedia';
 import ContactUs from './Component/ContactUs';
 import Navbar from './Navbar/Navbar';
+import Marketo from './Component/Marketo';
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
           <Route path="/socialmedia" element={<SocialMedia />} />
           <Route path="/contactus" element={<ContactUs />} />
           {/* <Route path="/paidsearch" element={<PaidSearch />} /> */}
-          {/* <Route path="/webdesign" element={<WebDesign />} />
-          <Route path="/merkto" element={<Merkto />} /> */}
+          {/* <Route path="/webdesign" element={<WebDesign />} />  */}
+          <Route path="/merkto" element={<Marketo/>} />
         </Routes>
       </Router>
     </div>

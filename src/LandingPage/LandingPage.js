@@ -11,8 +11,8 @@ export default function LandingPage() {
   return (
     <div>
     <Navbar />
-    <section className=''>
-    <div className='container'>
+    <section className=' add_new_padding'>
+    <div className='container ctns'>
         <div className='row'>
             <div className='col-lg-6 d-flex mt-5 justify-content-center align-items-center '>
             <div>
@@ -36,7 +36,7 @@ We scale brands
                
             </div>
             <div className='col-lg-6 mt-5'>
-<div className='landing_page_iamge'>
+<div className='landing_page_iamge border border-dark'>
     <img src='/Assets/footer/landingpage.jpg'/>
 </div>
 </div>
@@ -45,30 +45,28 @@ We scale brands
     </section>
     <section className='conatiner'>
         <div className=''>
-        <hr />
+        <hr className='line' />
         <div className='d-flex containers'>
       
-        <div className='google'>
+        <div className='google d-flex align-items-center'>
         <h2>CERTIFIED PARTNERS</h2>
-        </div>       
-           
-               <div className='google'>
+        </div>    
+        <div className='google d-flex align-items-center'>
                 <img src='/Assets/footer/imagesgoogle.jpeg'/>
+               </div>   
+               <div className='google d-flex align-items-center'>
+                <img src='/Assets/footer/fb.jpeg'/>
                </div>
-               <div className='google'>
-                <img src='/Assets/footer/imagesgoogle.jpeg'/>
+               <div className='google d-flex align-items-center'>
+                <img src='/Assets/footer/ig.jpeg'/>
                </div>
-               <div className='google'>
-                <img src='/Assets/footer/imagesgoogle.jpeg'/>
+               <div className='google d-flex align-items-center'>
+                <img src='/Assets/footer/yelp.png'/>
                </div>
-               <div className='google'>
-                <img src='/Assets/footer/imagesgoogle.jpeg'/>
-               </div>
-             
             </div>
             
         </div>
-        <hr />
+        <hr className='line' />
     </section>
      <section className='advertisment_section container'>
       <div data-aos="fade-up">
