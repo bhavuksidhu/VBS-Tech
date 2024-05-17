@@ -220,89 +220,114 @@ Get Started </a>
     <h2>Did you know that 55% of all consumers have bought something online after discovering it on social media?</h2>
 </div>
             </div>
-            <div className='col-lg-6 col-ms-12 col-sm-12 d-flex justify-content-center align-items-center'>
-                <div className=''>
+            <div className='col-lg-6 col-ms-12 col-sm-12 d-flex justify-content-center align-items-center p-5'>
+                <div className='w-75 border border-dark'>
                     <img src='/Assets/footer/TDV_M251_05.png' height="400"width="600" />
                 </div>
                 </div>
         </div>
     </div>  
     </section>
-    <section class="elementor-section elementor-top-section elementor-element elementor-element-6b00a87 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6b00a87" data-element_type="section">
-<div class="elementor-container elementor-column-gap-default">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a54baff" data-id="a54baff" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-d7cd4f8 elementor-widget elementor-widget-heading" data-id="d7cd4f8" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Frequently Asked Questions.</h2> </div>
-</div>
-<div class="elementor-element elementor-element-c783a1f elementor-widget elementor-widget-toggle" data-id="c783a1f" data-element_type="widget" data-widget_type="toggle.default">
-<div class="elementor-widget-container">
-<div class="elementor-toggle-item">
-<div id="elementor-tab-title-2091" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-2091" aria-expanded="false" tabindex="-1" aria-selected="false">
-<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
-<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
-<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
-</span>
-<a class="elementor-toggle-title" tabindex="0">Do Facebook Ads really work?</a>
-</div>
-<div id="elementor-tab-content-2091" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-2091" style={{display: "none"}} hidden="hidden"><p>Absolutely! Facebook Ads can be an incredibly effective way to reach your target audience and drive results for your business. With over 2 billion active users, Facebook offers a massive audience to tap into, and its advanced targeting options allow us to reach the right people at the right time. We’ve seen great success with Facebook Ads for our clients, with many of them achieving increased website traffic, lead generation, and conversions. Let’s talk more about how Facebook Ads could work for your business specifically.</p></div>
-</div>
-<div class="elementor-toggle-item">
-<div id="elementor-tab-title-2092" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-2092" aria-expanded="false" tabindex="-1" aria-selected="false">
-<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
-<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
-<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
-</span>
-<a class="elementor-toggle-title" tabindex="0">Are Facebook Ads better than Google Ads?</a>
-</div>
-<div id="elementor-tab-content-2092" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-2092" style={{display: "none"}} hidden="hidden"><p>It really depends on your specific business goals and target audience. Facebook Ads and Google Ads both offer unique benefits and can be effective in different ways. Facebook Ads are great for reaching a large, diverse audience and building brand awareness, while Google Ads can be more effective for targeting customers who are actively searching for specific products or services. Our team can help you determine which platform would be best for your business based on your goals and target audience. Let’s discuss your business needs in more detail to create a customized strategy that works for you.</p></div>
-</div>
-<div class="elementor-toggle-item">
-<div id="elementor-tab-title-2093" class="elementor-tab-title" data-tab="3" role="button" aria-controls="elementor-tab-content-2093" aria-expanded="false" tabindex="-1" aria-selected="false">
-<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
-<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
-<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
-</span>
-<a class="elementor-toggle-title" tabindex="0">What type of Facebook Ads should I run?</a>
-</div>
-<div id="elementor-tab-content-2093" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-2093" style={{display:"none"}} hidden="hidden"><p>The type of Facebook Ads you should run depends on your business goals and target audience. Some popular types of Facebook Ads include image ads, video ads, carousel ads, and lead generation ads. Our team can help you determine which type of ad would be most effective for your business based on your goals and target audience. We’ll work with you to create a customized Facebook Ads strategy that maximizes your results and drives growth for your business. Let’s talk more about your specific needs and goals to get started.</p></div>
-</div>
-<div class="elementor-toggle-item">
-<div id="elementor-tab-title-2094" class="elementor-tab-title" data-tab="4" role="button" aria-controls="elementor-tab-content-2094" aria-expanded="false">
-<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
-<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
-<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
-</span>
-<a class="elementor-toggle-title" tabindex="0">What should my advertising budget be?</a>
-</div>
-<div id="elementor-tab-content-2094" class="elementor-tab-content elementor-clearfix" data-tab="4" role="region" aria-labelledby="elementor-tab-title-2094"><p>Your advertising budget will depend on several factors, including your business goals, target audience, and the advertising platform you choose to use. We typically recommend starting with a budget that is comfortable for your business and that allows us to test different ad types and targeting options. From there, we can optimize your ad performance and gradually increase your budget as we see positive results. Our team can work with you to create a customized ad strategy that fits your budget and drives results for your business. Let’s discuss your specific needs and goals in more detail to determine the best budget for your advertising campaign.</p></div>
-</div>
-<div class="elementor-toggle-item">
-<div id="elementor-tab-title-2095" class="elementor-tab-title elementor-active" data-tab="5" role="button" aria-controls="elementor-tab-content-2095" aria-expanded="true" tabindex="0" aria-selected="true">
-<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
-<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
-<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
-</span>
-<a class="elementor-toggle-title" tabindex="0">How long has Collide Digital been managing Facebook ads?</a>
-</div>
-<div id="elementor-tab-content-2095" class="elementor-tab-content elementor-clearfix elementor-active" data-tab="5" role="region" aria-labelledby="elementor-tab-title-2095" style={{display:" block"}}><p>Our Facebook Marketing team have over 10 years of combined experience working with budgets and businesses of all sizes.&nbsp;</p></div>
-</div>
-<div class="elementor-toggle-item">
-<div id="elementor-tab-title-2096" class="elementor-tab-title" data-tab="6" role="button" aria-controls="elementor-tab-content-2096" aria-expanded="false">
-<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
-<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
-<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
-</span>
-<a class="elementor-toggle-title" tabindex="0">Are there any contracts if I work with Collide?</a>
-</div>
-<div id="elementor-tab-content-2096" class="elementor-tab-content elementor-clearfix" data-tab="6" role="region" aria-labelledby="elementor-tab-title-2096"><p>There are never any contracts with any service you sign up with Collide Digital. We believe in proving ourself to you each and every month.&nbsp;</p></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+    <section className=" mt-5 elementor-section elementor-top-section elementor-element elementor-element-6b00a87 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6b00a87" data-element_type="section">
+  <div className="  mt-5 container elementor-container elementor-column-gap-default">
+    <div className="  mt-5 elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a54baff" data-id="a54baff" data-element_type="column">
+      <div className="elementor-widget-wrap elementor-element-populated ">
+        <div className=" mb-5 elementor-element elementor-element-d7cd4f8 elementor-widget elementor-widget-heading" data-id="d7cd4f8" data-element_type="widget" data-widget_type="heading.default">
+          <div className="elementor-widget-container">
+            <h2 className="elementor-heading-title elementor-size-default text-center">Frequently Asked Questions.</h2>
+          </div>
+        </div>
+        <div className="elementor-element elementor-element-c783a1f elementor-widget elementor-widget-toggle" data-id="c783a1f" data-element_type="widget" data-widget_type="toggle.default">
+          <div className="elementor-widget-container">
+            <div className="elementor-toggle-item">
+              <div id="elementor-tab-title-2091" className="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-2091" aria-expanded="false" tabIndex="0" aria-selected="false">
+                <span className="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                  <span className="elementor-toggle-icon-closed"><i className="fas fa-caret-right"></i></span>
+                </span>
+                <a tabIndex="1" className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">Do Facebook Ads really work?</a>
+              </div>
+              <div className="collapse" id="collapseExample1">
+                <div className="card card-body border-0">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="elementor-toggle-item">
+              <div id="elementor-tab-title-2092" className="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-2092" aria-expanded="false" tabIndex="0" aria-selected="false">
+                <span className="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                  <span className="elementor-toggle-icon-closed"><i className="fas fa-caret-right"></i></span>
+                </span>
+                <a className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2" tabIndex="2">Are Facebook Ads better than Google Ads?</a>
+              </div>
+              <div className="collapse" id="collapseExample2">
+                <div className="card card-body border-0">
+                  It really depends on your specific business goals and target audience. Facebook Ads and Google Ads both offer unique benefits and can be effective in different ways. Facebook Ads are great for reaching a large, diverse audience and building brand awareness, while Google Ads can be more effective for targeting customers who are actively searching for specific products or services. Our team can help you determine which platform would be best for your business based on your goals and target audience. Let’s discuss your business needs in more detail to create a customized strategy that works for you.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="elementor-toggle-item">
+              <div id="elementor-tab-title-2093" className="elementor-tab-title" data-tab="3" role="button" aria-controls="elementor-tab-content-2093" aria-expanded="false" tabIndex="0" aria-selected="false">
+                <span className="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                  <span className="elementor-toggle-icon-closed"><i className="fas fa-caret-right"></i></span>
+                </span>
+                <a className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" tabIndex="3">What type of Facebook Ads should I run?</a>
+              </div>
+              <div className="collapse" id="collapseExample3">
+                <div className="card card-body border-0">
+                  It really depends on your specific business goals and target audience. Facebook Ads and Google Ads both offer unique benefits and can be effective in different ways. Facebook Ads are great for reaching a large, diverse audience and building brand awareness, while Google Ads can be more effective for targeting customers who are actively searching for specific products or services. Our team can help you determine which platform would be best for your business based on your goals and target audience. Let’s discuss your business needs in more detail to create a customized strategy that works for you.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="elementor-toggle-item">
+              <div id="elementor-tab-title-2094" className="elementor-tab-title" data-tab="4" role="button" aria-controls="elementor-tab-content-2094" aria-expanded="false" tabIndex="0" aria-selected="false">
+                <span className="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                  <span className="elementor-toggle-icon-closed"><i className="fas fa-caret-right"></i></span>
+                </span>
+                <a className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4" tabIndex="4">Your fourth question goes here</a>
+              </div>
+              <div className="collapse" id="collapseExample4">
+                <div className="card card-body border-0">
+                  Content for the fourth question goes here.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="elementor-toggle-item">
+              <div id="elementor-tab-title-2094" className="elementor-tab-title" data-tab="5" role="button" aria-controls="elementor-tab-content-2094" aria-expanded="false" tabIndex="0" aria-selected="false">
+                <span className="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                  <span className="elementor-toggle-icon-closed"><i className="fas fa-caret-right"></i></span>
+                </span>
+                <a className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5" tabIndex="5">Your fourth question goes here</a>
+              </div>
+              <div className="collapse" id="collapseExample5">
+                <div className="card card-body border-0">
+                  Content for the fourth question goes here.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="elementor-toggle-item">
+              <div id="elementor-tab-title-2094" className="elementor-tab-title" data-tab="6" role="button" aria-controls="elementor-tab-content-2094" aria-expanded="false" tabIndex="0" aria-selected="false">
+                <span className="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+                  <span className="elementor-toggle-icon-closed"><i className="fas fa-caret-right"></i></span>
+                </span>
+                <a className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample4" tabIndex="6">Your fourth question goes here</a>
+              </div>
+              <div className="collapse" id="collapseExample6">
+                <div className="card card-body border-0">
+                  Content for the fourth question goes here.
+                </div>
+              </div>
+            </div>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
  <section className='mb-4 add_element_new'>
       <div className='container '>
@@ -317,7 +342,7 @@ Get Started </a>
     </section>
     <section className='container add_price_content'>
       <div className='row'>
-        <div className='col-lg-6 col-md-12 col-sm-12  border border-primary'>
+        <div className='col-lg-6 col-md-12 col-sm-12  border border-dark'>
         <div className='added_for_padding'>
         <div className='beat '>
             <h2>
@@ -336,7 +361,7 @@ Dennis and team have been great to work with…and you cant beat the price. We d
           </div>
         </div>
         </div>
-        <div className='col-lg-6 col-md-12 col-sm-12  border border-primary'>
+        <div className='col-lg-6 col-md-12 col-sm-12  border border-dark'>
         <div className='added_for_padding'>
         <div className='beat '>
             <h2>

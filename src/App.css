@@ -66,14 +66,14 @@
  }
 
  .red-btn {
-   background: #ed1b24;
-   border: 2px solid #ed1b24;
-   color: #fff;
+   background: white;
+   border: 2px solid black;
+   color: black;
  }
 
  .red-btn:hover {
-   background: #1c376c;
-   color: #fff;
+   background: black;
+   color: white;
    border-color: #ffffff;
  }
 
@@ -427,7 +427,40 @@ margin: 0px 26px 0px 36px !important;
    font-weight: 300;
    line-height: 0em;
  }
+.form-control{
+  border: 1px solid black !important;
+  border-radius: 0%;
+}
+.googles{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.googles img {
+  max-width: 132px;
+}
+.elementor-toggle-title{
+  font-family: circular air, Sans-serif;
+    font-size: 1.15em;
+    font-weight: 700;
+}
 
+.add_gapped{
+  gap: 70px;
+}
+.landing_page_iamge button{
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.elementor-hea{
+  color: #000;
+  font-family: circular air, Sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
  .add_price_content {
    margin-bottom: 80px
  }

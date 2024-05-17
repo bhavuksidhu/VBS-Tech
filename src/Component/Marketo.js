@@ -53,24 +53,25 @@ Automate your business </span>
     </section>
 
     <section className='conatiner advertisment_section'>
-        <div className=''>
-        <hr  className='line'/>
-        <div className='d-flex containerss p-2 align-items-center'>
-      
-        <div className='google google12 d-flex align-items-center'>
+    <hr  className='line'/>
+        <div className='d-flex row add_gapped'>
+        <div className='google google12 d-flex align-items-center col-lg-3 col-md-12 col-sm-12'>
         <h2>WE'VE WORKED WITH SOME COOL BRANDS</h2>
-        </div>       
+        </div> 
+        <div className='d-flex containerss p-2 align-items-center col-lg-9 col-md-12 col-sm-12'>
+      
+            
            
-               <div className='google'>
+               <div className='googles'>
                 <img src='/Assets/footer/aws.png'/>
                </div>
-               <div className='google'>
+               <div className='googles'>
                 <img src='/Assets/footer/Adobe_Corporate_logo.svg.png'/>
                </div>
-               <div className='google'>
+               <div className='googles'>
                 <img src='/Assets/footer/aws.png'/>
                </div>
-               <div className='google'>
+               <div className='googles'>
                 <img src='/Assets/footer/Airbnb_Logo_Belo.svg.png'/>
                </div>
              
@@ -203,7 +204,7 @@ Automate your business </span>
         </div>
       </div>
      </section>
-     <section className='container'>
+     <section className='container  added'>
     <div className=''>
         <div className='row'>
             <div className='col-lg-6 d-flex mt-5 justify-content-center align-items-center'>
