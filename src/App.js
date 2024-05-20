@@ -7,6 +7,7 @@ import ContactUs from './Component/ContactUs';
 import Navbar from './Navbar/Navbar';
 import Marketo from './Component/Marketo';
 import Webdesign from './Component/Webdesign';
+import PaidSearch from './Component/PaidSearch';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/socialmedia" element={<SocialMedia />} />
           <Route path="/contactus" element={<ContactUs />} />
-          {/* <Route path="/paidsearch" element={<PaidSearch />} /> */}
+          <Route path="/paidsearch" element={<PaidSearch />} />
           <Route path="/webdesign" element={<Webdesign />} /> 
           <Route path="/merkto" element={<Marketo/>} />
         </Routes>

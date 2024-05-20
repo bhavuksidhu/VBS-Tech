@@ -291,6 +291,9 @@ margin: 0px 26px 0px 36px !important;
  .advertisment_section {
    margin-top: 100px;
  }
+ .nav-link.active {
+  border-bottom: 2px solid orangered; /* Change the color and width as needed */
+}
 
  .containet_holder {
    padding: 0px 46px 0px 46px;
@@ -468,7 +471,9 @@ margin: 0px 26px 0px 36px !important;
  .added {
    margin-bottom: 100px
  }
-
+.d3dd92e{
+  margin-top: 60px;
+}
  .Social_media_heading h2 {
    color: #000;
    font-family: circular air, Sans-serif;
@@ -476,7 +481,24 @@ margin: 0px 26px 0px 36px !important;
    font-weight: 900;
    letter-spacing: -1px;
  }
-
+ .landing_pages{
+  padding: 43px;
+ }
+ .mcctes{
+  gap: 0px !important;
+ }
+ .img_sections{
+  padding: 0px 10px 0px 0px  !important;
+  width: 39px !important;
+ }
+.add_cstm{
+  justify-content: center;
+  display: flex;
+  border: 2px solid black;
+}
+.add_cstm img{
+  max-width: 80%;
+}
  .main_containt_ovrerwrite h2 {
    color: #000;
    font-family: circular air, Sans-serif;
@@ -499,7 +521,22 @@ margin: 0px 26px 0px 36px !important;
  .img_section {
    display: flex;
    align-items: center;
-   width: 70px !important;
+   width: 70px ;
+ }
+ .section_contss{
+  padding: 0px 0px 0px 10px !important;
+ }
+ .elementor-size-default{
+  color: #000;
+    font-family: circular air, Sans-serif;
+    font-weight: 700;
+ }
+ .elementor-size-default{
+  color: #000;
+  font-family: circular air, Sans-serif;
+  font-size: 1.25em;
+  font-weight: 600;
+  text-decoration: underline;
  }
 /* 
  .section_cont h2 {
@@ -701,12 +738,33 @@ margin: 0px 26px 0px 36px !important;
 .consultation-form textarea {
   background-color: #000 !important; 
   color: #fff  !important;
-  border: 1px solid rgb(232, 211, 92) !important;
+  border: 1px solid white !important;
   border-radius: 0 !important;
   margin-bottom: 15px !important;
   padding: 15px;
 }
+.smh{
+  color: #000;
+  font-family: circular air, Sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+.divider-container {
+  display: flex;
+  align-items: baseline;
+  margin-top: 10px; /* Adjust as needed */
+}
 
+.divider-text {
+  margin-right: 10px; /* Space between text and line */
+}
+
+.divider-line {
+  flex-grow: 0;
+  height: 1px;
+  background-color: #000; /* Adjust color as needed */
+}
 .consultation-form input::placeholder,
 .consultation-form textarea::placeholder {
   color: #777 !important; 

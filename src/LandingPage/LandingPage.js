@@ -82,7 +82,7 @@ We scale brands
   </div>
   </div>
   <div className='heading_name'>
-  <h2>Facebook Advertising</h2>
+  <h2 className='text-center'>Facebook Advertising</h2>
 </div>
   <div className='paragraph_content'>
     <p>We specialize in local business Facebook Ads that bring in customers, not just traffic. Let us tailor a strategy to your needs and goals, and see real results for your business. </p>
@@ -98,7 +98,7 @@ We scale brands
   </div>
   </div>
   <div className='heading_name '>
-  <h2>Facebook Advertising</h2>
+  <h2  className='text-center'>Facebook Advertising</h2>
 </div>
   <div className='paragraph_content'>
     <p>We specialize in local business Facebook Ads that bring in customers, not just traffic. Let us tailor a strategy to your needs and goals, and see real results for your business. </p>
@@ -114,7 +114,7 @@ We scale brands
   </div>
   </div>
   <div className='heading_name' >
-  <h2>Facebook Advertising</h2>
+  <h2  className='text-center'>Facebook Advertising</h2>
 </div>
   <div className='paragraph_content'>
     <p>We specialize in local business Facebook Ads that bring in customers, not just traffic. Let us tailor a strategy to your needs and goals, and see real results for your business. </p>
