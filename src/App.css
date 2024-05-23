@@ -644,10 +644,12 @@ margin: 0px 26px 0px 36px !important;
    margin-top: 100px;
  }
 
- .elementor-heading-title h2 {
+ /* .elementor-heading-title h2 {
    width: 438px;
- }
-
+ } */
+.added_marg{
+  margin-top:80px
+}
  .elementor-toggle {
    text-align: start
  }
@@ -717,6 +719,21 @@ margin: 0px 26px 0px 36px !important;
    .elementor-toggle .elementor-tab-content {
      padding: 12px 10px
    }
+   .button_for_start{
+    width: auto  !important;
+    padding: 15px 30px;
+ 
+      }
+      .btns{
+        display: flex;
+        align-items:center;
+        justify-content:center;
+      }
+      .elementor-price-table__header{
+margin-top:30px
+      }
+     
+    
  }
 
  .e-con-inner>.elementor-widget-toggle,
@@ -837,4 +854,72 @@ margin: 0px;
 }
 .add_new_padding{
   padding-bottom: 100px;
+}
+
+@media(max-width:992px){
+  .heading_text_content{
+text-align: center;
+  }
+  .elementor-price-table__header{
+    margin-top:30px
+          }
+  .paragraph{
+    text-align: center;
+  }
+  .button_for_start{
+width: 100%;
+  }
+  .add_new_padding{
+    display: flex;
+    justify-content: center;
+  }
+  .main_containt{
+    padding: 0px;
+  }
+  .add_costume_Increase {
+    top: 0%;
+    margin-bottom: 40px;
+  }
+  .add_new_class_reverse{
+    flex-direction: column-reverse;
+  }
+  .Outline h2{
+    text-align: center;
+  }
+  .Outline p{
+    text-align: center;
+  }
+.process span{
+  text-align: center;
+}
+.elementor-heading-titles {
+  font-size: 35px;
+
+}
+.social_media{
+  margin-bottom:0px;
+  margin-top:0px;
+}
+.elemntor_add{
+  margin-bottom:0px;
+  margin-top:0px !important;
+}
+.main_containt_ovrerwrite h2{
+  font-size: 1.5em;
+}
+.smh{
+  font-weight: 700;
+}
+.elementor-hea{
+  font-weight: 600;
+}
+}
+.elemntor_add{
+  margin-top:3rem;
+}
+.google123{
+  display:none !important;
+}
+.googles{
+  width: 290px;
 }

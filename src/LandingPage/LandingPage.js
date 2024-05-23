@@ -27,7 +27,7 @@ We scale brands
             Our track record speaks for itself – our clients have seen an average YoY revenue increase of 90%. Let us put our expertise to work for your business and see the results for yourself. 
             </p>
             </div>
-            <div>
+            <div className='btns'>
                 <button className='button_for_start'> 
                 Get started
                 </button>
@@ -70,7 +70,7 @@ We scale brands
     </section>
      <section className='advertisment_section container'>
       <div data-aos="fade-up">
-        <h2>What we can do to help you</h2>
+        <h2 className='text-center'>What we can do to help you</h2>
       </div>
       <div className='row add_new'>
         <div className='col-lg-4 col-md-12 col-sm-12'>
@@ -134,7 +134,7 @@ We scale brands
   </div>
   </div>
   <div className='heading_name'>
-  <h2>Facebook Advertising</h2>
+  <h2 className='text-center'>Facebook Advertising</h2>
 </div>
   <div className='paragraph_content'>
     <p>We specialize in local business Facebook Ads that bring in customers, not just traffic. Let us tailor a strategy to your needs and goals, and see real results for your business. </p>
@@ -150,7 +150,7 @@ We scale brands
   </div>
   </div>
   <div className='heading_name'>
-  <h2>Facebook Advertising</h2>
+  <h2 className='text-center'>Facebook Advertising</h2>
 </div>
   <div className='paragraph_content'>
     <p>We specialize in local business Facebook Ads that bring in customers, not just traffic. Let us tailor a strategy to your needs and goals, and see real results for your business. </p>
@@ -166,7 +166,7 @@ We scale brands
   </div>
   </div>
   <div className='heading_name'>
-  <h2>Facebook Advertising</h2>
+  <h2 className='text-center'>Facebook Advertising</h2>
 </div>
   <div className='paragraph_content'>
     <p>We specialize in local business Facebook Ads that bring in customers, not just traffic. Let us tailor a strategy to your needs and goals, and see real results for your business. </p>
@@ -190,7 +190,7 @@ when You Win I win
             <p className='paragraph'>
             At Collide Digital, we believe that every local business can achieve big things. Our digital marketing agency specializes in crafting customized strategies that prioritize people and drive results. Let us help put your business on the map and propel you to the next stage of your journey.             </p>
             </div>
-            <div>
+            <div className='btns'>
                 <button className='button_for_start'> 
                Contact Us
                 </button>
@@ -246,7 +246,7 @@ when You Win I win
       </div>
     </section>
     <section className='container'>
-      <div className='row'>
+      <div className='row add_new_class_reverse'>
         <div className='col-lg-6 col-md-12 col-sm-12'>
           <div className='position-relative add_costume_Increase'>
             <div className='add_website_conversions' >
@@ -271,7 +271,7 @@ when You Win I win
       <li><i class="fa-solid fa-check pe-3" style={{color: "#FFD43B",}}></i> SEO</li>
     </ul>
               </div>
-              <div className='mt-4'>
+              <div className='mt-4 btns'>
               <button className='button_for_start'>Get started</button>
 
               </div>
@@ -285,7 +285,7 @@ when You Win I win
       </div>
     </section>
     <section className='container'>
-      <div className='row'>
+      <div className='row add_new_class_reverse'>
       <div className='col-lg-6 col-md-12 col-sm-12'>
           <div className=''>
             <img src='/Assets/footer/FTP-works.jpg'></img>
@@ -315,7 +315,7 @@ when You Win I win
       <li><i class="fa-solid fa-check pe-3" style={{color: "#FFD43B",}}></i> SEO</li>
     </ul>
               </div>
-              <div className='mt-4'>
+              <div className='mt-4 btns'>
               <button className='button_for_start'>Get started</button>
 
               </div>
@@ -324,10 +324,10 @@ when You Win I win
        
       </div>
     </section>
-    <section className=''>
+    <section className='bg-dark text-white added_marg'>
     <div className=''>
         <div className='heading_section' data-aos="fade-up">
-          <h2 className='text-center p-3'>You should talk to us if you are....</h2>
+          <h2 className='text-center p-4'>You should talk to us if you are....</h2>
         </div>
       </div>
     </section>
@@ -381,7 +381,7 @@ when You Win I win
     </section>
     <section>
       <div className='container added  border border-primary'>
-        <div className='row'>
+        <div className='row add_new_class_reverse'>
           <div className='col-lg-6 col-md-12 col-sm-12'>
             <div>
               <img  src='/Assets/footer/TDV_M86_04-1536x1024 (1).png'/>
@@ -401,7 +401,7 @@ when You Win I win
               <div className='Collide'>
                 <p>Collide Digital will collaborate with you to create a detailed business brief that defines your specific needs and objectives.</p>
               </div>
-              <div className='btnn'>
+              <div className='btnn btns'>
                 <button  className='button_for_start'>Contact Us</button>
               </div>
             </div>
@@ -422,7 +422,7 @@ when You Win I win
               <div className='Collide'>
                 <p>Collide Digital will collaborate with you to create a detailed business brief that defines your specific needs and objectives.</p>
               </div>
-              <div className='btnn'>
+              <div className='btnn btns'>
                 <button  className='button_for_start'>Contact Us</button>
               </div>
             </div>
@@ -437,7 +437,7 @@ when You Win I win
     </section>
     <section>
       <div className='container added  border border-primary'>
-        <div className='row'>
+        <div className='row add_new_class_reverse'>
         <div className='col-lg-6 col-md-12 col-sm-12'>
             <div>
               <img  src='/Assets/footer/TDV_M86_04-1536x1024 (1).png'/>
@@ -451,7 +451,7 @@ when You Win I win
               <div className='Collide'>
                 <p>Collide Digital will collaborate with you to create a detailed business brief that defines your specific needs and objectives.</p>
               </div>
-              <div className='btnn'>
+              <div className='btnn btns'>
                 <button  className='button_for_start'>Contact Us</button>
               </div>
             </div>

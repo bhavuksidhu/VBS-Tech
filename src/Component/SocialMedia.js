@@ -12,7 +12,7 @@ export default function SocialMedia() {
    <Navbar />
    <section>
    <div className='social_media'>
-    <h2 className='Social_media_heading smh text-center'>Social Media Solution</h2>
+    <h2 className='Social_media_heading smh text-center elementor-heading-title elementor-heading-titles'>Social Media Solution</h2>
    </div>
    <div className='container'>
     <div className='row'>
@@ -28,7 +28,7 @@ export default function SocialMedia() {
               <div className='expect'>
                 <h2> Grow Your Business With The #1 Advertising Platform</h2>
               </div>
-              <div className='btnn'>
+              <div className='btnn btns'>
                 <button  className='button_for_start'>Contact Us</button>
               </div>
             </div>

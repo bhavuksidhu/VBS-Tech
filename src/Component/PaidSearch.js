@@ -9,11 +9,13 @@ export default function PaidSearch() {
        <section className='added'>
     <div className='container'>
         <div className='row'>
-            <div className='col-lg-6 d-flex mt-5 justify-content-center align-items-center '>
+            <div className='col-lg-6 d-flex  justify-content-center align-items-center elemntor_add'>
             <div>
             <div className='heading'>
             <div class="elementor-divider">
-            <h2 class="elementor-hea mb-3">Search Engine Solutions</h2>
+            <div className='elemntor_add'>
+            <h2 class="elementor-hea mb-3 elementor-heading-titles">Search Engine Solutions</h2>
+            </div>
 <span class="elementor-divider-separator">
 <span class="elementor-divider__text elementor-divider__element">
 Automate your business </span>
