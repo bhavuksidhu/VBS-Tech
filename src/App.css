@@ -163,7 +163,7 @@ background-image: linear-gradient( to bottom, #222023, #1e2c47 ); */
    -moz-transition: all 0.5s;
    -o-transition: all 0.5s;
    transition: all 0.5s;
-   font-weight: 800;
+   font-weight: 700;
  }
 
  ul.footer-social li:last-child {
@@ -323,7 +323,7 @@ margin: 0px 26px 0px 36px !important;
    color: #000000;
    font-family: "Circular Air", Sans-serif;
    font-size: 1.5em;
-   font-weight: 800;
+   font-weight: 700;
    letter-spacing: -1px;
  }
 
@@ -712,6 +712,17 @@ margin: 0px 26px 0px 36px !important;
  }
 
  @media (max-width:767px) {
+  .elementor-heading-title h2{
+text-align: center;
+font-size: 18px;
+padding: 10px;
+  }
+  .added_for_padding{
+padding: 10px;
+  }
+  .social_media_paragraph{
+    text-align: center;
+  }
    .elementor-toggle .elementor-tab-title {
      padding: 12px
    }
@@ -721,8 +732,12 @@ margin: 0px 26px 0px 36px !important;
    }
    .button_for_start{
     width: auto  !important;
-    padding: 15px 30px;
+    padding: 10px 30px;
  
+      }
+      .button_Contact{
+        display: flex;
+        justify-content: center;
       }
       .btns{
         display: flex;
@@ -855,17 +870,69 @@ margin: 0px;
 .add_new_padding{
   padding-bottom: 100px;
 }
+.elemntor_add{
+  margin-top:3rem;
+}
+.google123{
+  display:none !important;
+}
+.googles{
+  width: 290px;
+}
+.google{
+  height: 50px ;
+  padding: 20px;
+}
+.text{
+  color: #000;
+  font-family: circular air, Sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.heading_text{
+  padding: 3rem;
+}
 
 @media(max-width:992px){
+  .text
+  {
+   text-align: center;
+   font-size: 2em !important;
+  }
+  .heading_text{
+    padding: 10px !important;
+  }
   .heading_text_content{
 text-align: center;
+font-size: 1.6em !important;
+  }
+
+  .expert h2{
+    text-align: center;
+  }
+  .elementor-divider{
+    text-align: center;
+  }
+  .advertisment_banner{
+    text-align: center;
+  }
+  .expect{
+    text-align: center;
+  }
+  .expect span{
+    text-align: center;
   }
   .elementor-price-table__header{
     margin-top:30px
           }
   .paragraph{
     text-align: center;
+    font-size: 1em;
   }
+  .ctns {
+    margin: 0px 16px 0px 16px !important;
+}
   .button_for_start{
 width: 100%;
   }
@@ -893,7 +960,7 @@ width: 100%;
   text-align: center;
 }
 .elementor-heading-titles {
-  font-size: 35px;
+  font-size: 1.50em;
 
 }
 .social_media{
@@ -912,14 +979,92 @@ width: 100%;
 }
 .elementor-hea{
   font-weight: 600;
+  font-size: 1.50em;
+}
+.elementor-size-default{
+  font-size: 1.6em;
+        line-height: 1.2em;
+        text-decoration: none !important;
+        text-align: center;
+}
+.brands-container {
+  margin:0px;
 }
 }
-.elemntor_add{
-  margin-top:3rem;
-}
-.google123{
-  display:none !important;
-}
-.googles{
-  width: 290px;
+
+  /* .advertisment_section {
+    padding: 20px 0;
+  } */
+
+  .line {
+    border: 1px solid #000;
+  }
+
+  /* .brands-container {
+    margin: 20px 0px 20px 0px;
+  } */
+  .brand-logo_heading{
+background-color: #000;
+color: white;
+  }
+  .add_for_changes{
+    display: none;
+  }
+  .brand-logo img{
+   padding: 20px 0px 20px 0px ;
+  }
+  .brand-logo {
+    flex: 1 1 16%; /* Adjust this to control the number of logos per row */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px ;
+  }
+  /* .brand-logo h2{
+    width: 103px;
+  } */
+  .brand-logo img {
+    width: 100px; /* Adjust this size as needed */
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    .brand-logo {
+      flex: 1 1 40%; /* Adjust for fewer logos per row on small screens */
+    }
+    .brand-logo_heading
+    {
+      flex: 1 1 62% !important ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0px 20px 0px ;
+    }
+    .add_for_changes_new{
+display: none;
+    }
+    .add_for_changes{
+      display:flex;
+    }
+    .brand-logo img {
+      max-width: 80px; /* Smaller logo size for mobile */
+    }
+  }
+
+  @media (max-width: 576px) {
+    .brand-logo {
+      flex: 1 1 49%; 
+      margin-bottom: 15px;
+    }
+
+    .brand-logo img {
+      width: 100px;
+    }
+    
+    .brand-logo {
+      width: 100px;
+    }
+  }
+.f6{
+font-size: 1em;
 }

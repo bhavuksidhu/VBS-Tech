@@ -14,7 +14,7 @@ export default function PaidSearch() {
             <div className='heading'>
             <div class="elementor-divider">
             <div className='elemntor_add'>
-            <h2 class="elementor-hea mb-3 elementor-heading-titles">Search Engine Solutions</h2>
+            <h2 class="elementor-hea mb-3 elementor-heading-titles mt-2">Search Engine Solutions</h2>
             </div>
 <span class="elementor-divider-separator">
 <span class="elementor-divider__text elementor-divider__element">

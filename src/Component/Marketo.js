@@ -10,15 +10,15 @@ export default function Marketo() {
       <section className=''>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-6 d-flex mt-5 justify-content-center align-items-center '>
+            <div className='col-lg-6 d-flex mt-4 justify-content-center align-items-center '>
               <div>
                 <div className='heading'>
-                  <div class="elementor-divider">
+                  {/* <div class="elementor-divider">
                     <span class="elementor-divider-separator">
                       <span class="elementor-divider__text elementor-divider__element">
                         Automate your business </span>
                     </span>
-                  </div>
+                  </div> */}
 
                   <div class="elementor-widget-container">
                     <h2 class="elementor-heading-title elementor-size-default">Accelerate the value of your Marketo instance with help from certified experts</h2> </div>
@@ -51,41 +51,60 @@ export default function Marketo() {
           </div>
         </div>
       </section>
-
-      <section className='conatiner advertisment_section'>
-        <hr className='line' />
-        <div className='d-flex row add_gapped'>
-          <div className='google google12 d-flex align-items-center col-lg-3 col-md-12 col-sm-12'>
-            <h2>WE'VE WORKED WITH SOME COOL BRANDS</h2>
-          </div>
-          <div className='d-flex containerss p-2 align-items-center col-lg-9 col-md-12 col-sm-12'>
-            <div className='d-flex'>
-              <div className='d-flex'>
-                <div className='googles'>
-                  <img src='/Assets/footer/aws.png' />
-                </div>
-                <div className='googles'>
-                  <img src='/Assets/footer/Adobe_Corporate_logo.svg.png' />
-                </div>
-              </div>
-              <div className='google google12  google123 d-flex align-items-center w-100'>
-            <h2>WE'VE WORKED WITH SOME COOL BRANDS</h2>
-          </div>
-              <div className='d-flex'>
-                <div className='googles'>
-                  <img src='/Assets/footer/aws.png' />
-                </div>
-                <div className='googles'>
-                  <img src='/Assets/footer/Airbnb_Logo_Belo.svg.png' />
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-        <hr className='line' />
-      </section>
+      <section className=' container-fluid advertisment_section add_for_changes_new'>
+  <hr className='line' />
+  <div className='row'>
+    
+    <div className='col-12 d-flex justify-content-center flex-wrap brands-container'>
+    <div className='brand-logo brand-logo_heading'>
+      <h2 className='text-center f6'>WE'VE WORKED WITH SOME COOL BRANDS</h2>
+    </div>
+      <div className='brand-logo'>
+        <img src='/Assets/footer/aws.png' alt='AWS' />
+      </div>
+      <div className='brand-logo'>
+        <img src='/Assets/footer/Airbnb_Logo_Belo.svg.png' alt='Allbirds' />
+      </div>
+      <div className='brand-logo'>
+        <img src='/Assets/footer/Airbnb_Logo_Belo.svg.png' alt='Adobe' />
+      </div>
+      <div className='brand-logo'>
+        <img src='/Assets/footer/Airbnb_Logo_Belo.svg.png' alt='Airbnb' />
+      </div>
+      <div className='brand-logo'>
+        <img src='/Assets/footer/Airbnb_Logo_Belo.svg.png' alt='ActiveCampaign' />
+      </div>
+    </div>
+  </div>
+  <hr className='line' />
+</section>
+ <section className=' container-fluid advertisment_section add_for_changes'>
+  <hr className='line' />
+  <div className='row'>
+    
+    <div className='col-12 d-flex justify-content-center flex-wrap brands-container'>
+      <div className='brand-logo'>
+        <img src='/Assets/footer/aws.png' alt='AWS' />
+      </div>
+      <div className='brand-logo'>
+        <img src='/Assets/footer/Airbnb_Logo_Belo.svg.png' alt='Allbirds' />
+      </div>
+      <div className=' brand-logo_heading'>
+      <h2 className='text-center f6'>WE'VE WORKED WITH SOME COOL BRANDS</h2>
+    </div>
+      <div className='brand-logo'>
+        <img src='/Assets/footer/Airbnb_Logo_Belo.svg.png' alt='Adobe' />
+      </div>
+      <div className='brand-logo'>
+        <img src='/Assets/footer/Airbnb_Logo_Belo.svg.png' alt='Airbnb' />
+      </div>
+      <div className='brand-logo'>
+        <img src='/Assets/footer/Airbnb_Logo_Belo.svg.png' alt='ActiveCampaign' />
+      </div>
+    </div>
+  </div>
+  <hr className='line' />
+</section>
       <section className='add_element_news_background'>
         <div className='container'>
           <div className='row'>
@@ -108,7 +127,7 @@ export default function Marketo() {
         </div>
         <div className='row add_new'>
           <div className='col-lg-4 col-md-12 col-sm-12'>
-            <div className='containet_holder'>
+            <div className='advertisment_banner'>
 
               <div className='icon_for_content w-100 d-flex justify-content-center'>
                 <div className='abc'>
@@ -124,7 +143,7 @@ export default function Marketo() {
             </div>
           </div>
           <div className='col-lg-4 col-md-12 col-sm-12'>
-            <div className='containet_holder'>
+            <div className='advertisment_banner'>
 
               <div className='icon_for_content w-100 d-flex justify-content-center'>
                 <div className='abc'>
@@ -140,7 +159,7 @@ export default function Marketo() {
             </div>
           </div>
           <div className='col-lg-4 col-md-12 col-sm-12'>
-            <div className='containet_holder'>
+            <div className='advertisment_banner'>
 
               <div className='icon_for_content w-100 d-flex justify-content-center'>
                 <div className='abc'>
@@ -161,7 +180,7 @@ export default function Marketo() {
       <section className='container '>
         <div className='row add_new'>
           <div className='col-lg-4 col-md-12 col-sm-12'>
-            <div className='containet_holder'>
+            <div className='advertisment_banner'>
 
               <div className='icon_for_content w-100 d-flex justify-content-center'>
                 <div className='abc'>
@@ -177,7 +196,7 @@ export default function Marketo() {
             </div>
           </div>
           <div className='col-lg-4 col-md-12 col-sm-12'>
-            <div className='containet_holder'>
+            <div className='advertisment_banner'>
 
               <div className='icon_for_content w-100 d-flex justify-content-center'>
                 <div className='abc'>
@@ -193,7 +212,7 @@ export default function Marketo() {
             </div>
           </div>
           <div className='col-lg-4 col-md-12 col-sm-12'>
-            <div className='containet_holder'>
+            <div className='advertisment_banner'>
 
               <div className='icon_for_content w-100 d-flex justify-content-center'>
                 <div className='abc'>
@@ -211,7 +230,7 @@ export default function Marketo() {
         </div>
       </section>
       <section className='container  added'>
-        <div className=''>
+        <div className='advertisment_banner'>
           <div className='row'>
             <div className='col-lg-6 d-flex mt-5 justify-content-center align-items-center'>
               <div>
@@ -225,7 +244,7 @@ export default function Marketo() {
                   <p className='paragraph'>
                     At Collide Digital, we believe that every local business can achieve big things. Our digital marketing agency specializes in crafting customized strategies that prioritize people and drive results. Let us help put your business on the map and propel you to the next stage of your journey.             </p>
                 </div>
-                <div>
+                <div className=' button_Contact'>
                   <button className='button_for_start'>
                     Contact Us
                   </button>

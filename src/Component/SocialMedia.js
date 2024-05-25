@@ -29,7 +29,7 @@ export default function SocialMedia() {
                 <h2> Grow Your Business With The #1 Advertising Platform</h2>
               </div>
               <div className='btnn btns'>
-                <button  className='button_for_start'>Contact Us</button>
+                <a className='button_for_start'>Get Started</a>
               </div>
             </div>
         </div>
@@ -335,7 +335,7 @@ Get Started </a>
  <section className='mb-4 add_element_new'>
       <div className='container '>
         <h2 className='text-center'>What Clients Say About Us</h2>
-        <div  className='text-center p-2 container w-50'>
+        <div  className='text-center p-2 container '>
       Curious about what real clients have to say about working with the Collide Digital team?
        Check out our reviews on Yelp or Google to hear firsthand about their experiences with us.
 

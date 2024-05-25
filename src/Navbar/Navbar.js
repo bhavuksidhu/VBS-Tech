@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            <img src="./Assets/footer/small black vbs (1).png" className="ms-3 mb-2" alt="" style={{ width: "100px" }} />
+            <img src="./Assets/footer/small black vbs (2).png" className="ms-3 mb-2" alt="" style={{ width: "100px" }} />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{ border: "none" }}>
             <span className="navbar-toggler-icon"></span>

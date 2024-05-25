@@ -14,7 +14,7 @@ export default function LandingPage() {
     <section className=' add_new_padding'>
     <div className='container ctns'>
         <div className='row'>
-            <div className='col-lg-6 d-flex mt-5 justify-content-center align-items-center '>
+            <div className='col-lg-6 d-flex mt-4 justify-content-center align-items-center '>
             <div>
             <div className='heading'>
             <div  data-aos="fade-up">
@@ -67,14 +67,18 @@ We scale brands
             
         </div>
         <hr className='line' />
+
     </section>
-     <section className='advertisment_section container'>
-      <div data-aos="fade-up">
-        <h2 className='text-center'>What we can do to help you</h2>
+    <section className='advertisment_section heading_text'>
+    <div data-aos="fade-up">
+        <h2 className='text'>What we can do to help you</h2>
       </div>
+    </section>
+     <section className=' container'>
+    
       <div className='row add_new'>
         <div className='col-lg-4 col-md-12 col-sm-12'>
-<div className='containet_holder'>
+<div className=''>
  
   <div className='icon_for_content w-100 d-flex justify-content-center'>
   <div className='abc'>
@@ -90,7 +94,7 @@ We scale brands
 </div>
         </div>
         <div className='col-lg-4 col-md-12 col-sm-12'>
-<div className='containet_holder'>
+<div className=''>
  
   <div className='icon_for_content w-100 d-flex justify-content-center'>
   <div className='abc'>
@@ -106,7 +110,7 @@ We scale brands
 </div>
         </div>
         <div className='col-lg-4 col-md-12 col-sm-12'>
-<div className='containet_holder'>
+<div className=''>
  
   <div className='icon_for_content w-100 d-flex justify-content-center'>
   <div className='abc'>
@@ -126,7 +130,7 @@ We scale brands
      <section className='container '>
      <div className='row add_new'>
      <div className='col-lg-4 col-md-12 col-sm-12'>
-<div className='containet_holder'>
+<div className=''>
  
   <div className='icon_for_content w-100 d-flex justify-content-center'>
   <div className='abc'>
@@ -142,7 +146,7 @@ We scale brands
 </div>
         </div>
         <div className='col-lg-4 col-md-12 col-sm-12'>
-<div className='containet_holder'>
+<div className=''>
  
   <div className='icon_for_content w-100 d-flex justify-content-center'>
   <div className='abc'>
@@ -158,7 +162,7 @@ We scale brands
 </div>
         </div>
         <div className='col-lg-4 col-md-12 col-sm-12'>
-<div className='containet_holder'>
+<div className=''>
  
   <div className='icon_for_content w-100 d-flex justify-content-center'>
   <div className='abc'>
@@ -179,7 +183,7 @@ We scale brands
     <div className=''>
         <div className='row'>
             <div className='col-lg-6 d-flex mt-5 justify-content-center align-items-center'>
-            <div>
+            <div className=''>
             <div className='heading' >
             <div className='heading' data-aos="fade-up">
             <h1 className='heading_text_content'>
@@ -248,7 +252,7 @@ when You Win I win
     <section className='container'>
       <div className='row add_new_class_reverse'>
         <div className='col-lg-6 col-md-12 col-sm-12'>
-          <div className='position-relative add_costume_Increase'>
+          <div className='position-relative add_costume_Increase containet_holder mt-4'>
             <div className='add_website_conversions' >
              <h2>Increase in website conversions</h2>
             </div>
@@ -292,7 +296,7 @@ when You Win I win
           </div> 
         </div>
         <div className='col-lg-6 col-md-12 col-sm-12'>
-          <div className='position-relative add_costume_Increase'>
+          <div className='position-relative add_costume_Increase containet_holder mt-4'>
             <div className='add_website_conversions' data-aos="fade-up">
              <h2>Increase in website conversions</h2>
             </div>
@@ -388,8 +392,8 @@ when You Win I win
             </div>
           </div>
           <div className='col-lg-6  col-md-12 col-sm-12'>
-            <div className='main_containt'>
-              <div className='process'>
+            <div className='main_containt containet_holder'>
+              <div className='expect'>
                 <span>Our process</span>
               </div>
               <div className='expect' data-aos="fade-up">
