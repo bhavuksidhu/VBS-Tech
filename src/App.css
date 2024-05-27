@@ -1032,6 +1032,9 @@ color: white;
     .brand-logo {
       flex: 1 1 40%; /* Adjust for fewer logos per row on small screens */
     }
+    .google img {
+      max-width: 74px;
+    }
     .brand-logo_heading
     {
       flex: 1 1 62% !important ;
