@@ -7,7 +7,6 @@ import ContactUs from './Component/ContactUs';
 import Navbar from './Navbar/Navbar';
 import Marketo from './Component/Marketo';
 import Webdesign from './Component/Webdesign';
-import PaidSearch from './Component/PaidSearch';
 
 function App() {
   return (

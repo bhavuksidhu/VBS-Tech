@@ -474,6 +474,7 @@ margin: 0px 26px 0px 36px !important;
 .d3dd92e{
   margin-top: 60px;
 }
+
  .Social_media_heading h2 {
    color: #000;
    font-family: circular air, Sans-serif;
@@ -499,6 +500,7 @@ margin: 0px 26px 0px 36px !important;
 .add_cstm img{
   max-width: 80%;
 }
+
  .main_containt_ovrerwrite h2 {
    color: #000;
    font-family: circular air, Sans-serif;
@@ -537,6 +539,7 @@ margin: 0px 26px 0px 36px !important;
   font-size: 1.25em;
   font-weight: 600;
   text-decoration: underline;
+   width: 70px !important;
  }
 /* 
  .section_cont h2 {
@@ -650,6 +653,10 @@ margin: 0px 26px 0px 36px !important;
 .added_marg{
   margin-top:80px
 }
+ .elementor-heading-title h2 {
+   width: 438px;
+ }
+
  .elementor-toggle {
    text-align: start
  }
@@ -730,10 +737,8 @@ margin: 0px 26px 0px 36px !important;
         justify-content:center;
       }
       .elementor-price-table__header{
-margin-top:30px
+        margin-top:30px
       }
-     
-    
  }
 
  .e-con-inner>.elementor-widget-toggle,
@@ -756,6 +761,7 @@ margin-top:30px
   background-color: #000 !important; 
   color: #fff  !important;
   border: 1px solid white !important;
+  border: 1px solid rgb(232, 211, 92) !important;
   border-radius: 0 !important;
   margin-bottom: 15px !important;
   padding: 15px;
@@ -782,6 +788,7 @@ margin-top:30px
   height: 1px;
   background-color: #000; /* Adjust color as needed */
 }
+
 .consultation-form input::placeholder,
 .consultation-form textarea::placeholder {
   color: #777 !important; 
