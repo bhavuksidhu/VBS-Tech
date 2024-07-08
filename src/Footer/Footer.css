@@ -1,0 +1,53 @@
+@media only screen and (max-width: 575px) {
+    .boy {
+    display: flex !important;
+    justify-content: flex-start !important;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .ayu {
+    display: flex !important;
+    justify-content: flex-start !important;
+    }
+  }
+
+  @media only screen and (max-width: 991px){
+   
+  }
+  .pww {
+    height: fit-content;
+  }
+  .pj {
+    font-size: small;
+  }
+  .cd {
+    color: #52525B;
+  }
+  .br {
+    color: #18181B;
+  }
+  @media(max-width:575px){
+    .himu {
+      display: flex !important;
+      justify-content: flex-start!important;
+  }
+  }
+  .fa-phone{
+    display: flex;
+    position: relative;
+    top: 5px;
+  }
+  .spn{
+    display: flex;
+    gap: 20px;
+  }
+  .fa-envelope{
+    display: flex;
+    position: relative;
+    top: 5px;
+  }
+  .fa-location-dot{
+    display: flex;
+    position: relative;
+    top: 5px;
+  }
