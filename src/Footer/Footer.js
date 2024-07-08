@@ -1,108 +1,80 @@
 import React from 'react'
+import './Footer.css'
 
 export default function Footer() {
   return (
     <div>
-      <footer>
-    <div class="container">
-        <div class="footer-top">
-            <div class="row">
-                <div class="col-md-6 col-lg-3 about-footer">
-                    <h3>We are a team of digital marketing professionals passionate about helping businesses thrive in the digital environment.</h3>
-                    <ul>
-                        <li><a href="tel:(010) 1234 4321"><i class="fas fa-phone fa-flip-horizontal"></i>(010) 1234 4321</a></li>
-                        <li><i class="fas fa-map-marker-alt"></i>
-                            1 / 105 Bay Lights,
-                            <br/>Lorem Ipsum,
-                            <br/>LIC 3201
-                        </li>
-                    </ul>
-                    <a href="" class="btn red-btn">Book Now</a>
-                </div>
-                <div class="col-md-6 col-lg-2 page-more-info">
-                    <div class="footer-title">
-                        <h4>Page links</h4>
-                    </div>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Service</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                      <li><a href="#">Term & Conditions</a></li>
-                      {/* <li><a href="#">Privacy</a></li>
-                      <li><a href="#">Policy</a></li> */}
-                    </ul>
-                </div>
-
-                <div class="col-md-6 col-lg-3 page-more-info">
-                    <div class="footer-title">
-                        <h4>More Info</h4>
-                    </div>
-                    <ul>
-                        <li><a href="#">Lorem ipsum</a></li>
-                        <li><a href="#">Dolor sit amet</a></li>
-                        <li><a href="#">Consectetur Adipisicing </a></li>
-                        <li><a href="#">Ed do eiusmod tempor incididunt</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-6 col-lg-4 open-hours">
-                    <div class="footer-title">
-                        <h4>Open hours</h4>
-                        <ul class="footer-social">
-                            <li><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-
-                        </ul>
-                    </div>
-                    <table class="table">
-                        <tbody>
-                            <tr>
-                                <td><i class="far fa-clock"></i>Monday Thursday</td>
-                                <td>9:00am - 5:00pm</td>
-                            </tr>
-                            <tr>
-                                <td><i class="far fa-clock"></i>Friday</td>
-                                <td>9:00am - 4:00pm</td>
-                            </tr>
-                            <tr>
-                                <td><i class="far fa-clock"></i>Sturday</td>
-                                <td>9:00am - 1:30pm</td>
-                            </tr>
-                            <tr>
-                                <td><i class="far fa-clock"></i>Sunday</td>
-                                <td>9:30am - 12:00pm</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <hr/>
-                    <div class="footer-logo">
-
-                    <table>
-                        <tbody>
-                            <tr className='race'>
-                                <td><img src="/Assets/footer/imageplaystore.png"/></td>
-                                <td><img src="/Assets/footer/imageplaystore.png"/></td>
-                                <td><img src="/Assets/footer/imageplaystore.png"/></td>
-                                <td><img src="/Assets/footer/imageplaystore.png"/></td>
-                                </tr>
-                        </tbody>
-                    </table>
-                    </div>
-                </div>
-            </div>
+     <div class="container-fluid  " style={{backgrounColor: "#FAFAFB"}}>
+    <div class=" p-5 m-5 text-dark">
+      <div class="row mt-5  text-dark">
+        <div class="col-lg-4 mt-5 text-start text-dark col-md-6 col-sm-6 allaresame text-dark mb-5">
+          <h5><b>VBSTECH SOLUTIONS</b></h5>
+          <p class=" pt-3 pj cd">
+            We are completely dedicated to our business. Do not hesitate to contact us at any time, we will be happy to
+            implement all your ideas to life.
+          </p>
+          <div class="d-flex justify-content-evenly col-lg-7">
+            <i class="fa-brands fa-twitter  fs-4"></i>
+          <i class="fa-brands fa-facebook fs-4"></i>
+          <i class="fa-brands fa-instagram fs-4"></i>
+          <i class="fa-brands fa-github  fs-4"></i>
+          </div>
+          
         </div>
-        <hr/>
-    
+        <div class="col-lg-2 mt-5 d-flex justify-content-center col-md-6 col-sm-6 himu">
+          <div>
+            <h5> <b>Our Links</b></h5>
+            <p class="pj pt-3 br">About </p>
+            <p class="pj br">Project </p>
+            <p class="pj br">Service </p>
+            <p class="pj br"> Blog</p>
+          </div>
+
+
+
+        </div>
+        <div class=" col-lg-3 mt-5 boy d-flex justify-content-start col-md-6 col-sm-6">
+          <div>
+            <h5> <b>Our Services</b></h5>
+            <p class="pj  pt-3 br">E-commerce Solutions</p>
+            <p class="pj br"> Graphics Design</p>
+            <p class="pj br"> Web Development</p>
+            <p class="pj br"> Mobile App Development</p>
+          </div>
+
+        </div>
+        <div class="col-lg-3 mt-5 boy d-flex justify-content-center col-md-6 col-sm-6 ">
+          <div>
+            <h5> <b>Contact Us</b></h5>
+            <p class="pt-3 mb-0">
+              <span className='spn'>
+              <i class="fa-solid fa-phone"></i><p className=' mb-3 text-muted pj'>+91 7300720901</p>
+              </span>
+           
+              <span className='spn'>
+           <i class="fa-solid fa-envelope">   </i><p className=' mb-3 text-muted pj'>contact@vbstechsolutions.com</p>
+           </span>
+           <span className='spn'>
+            <div>
+            <i class="fa-solid fa-location-dot"></i>
+            </div>
+         
+
+         <div >
+         <p className=' mb-0 pj'>Vbs Tech Solution India Pvt Ltd </p>
+            <p className=' mb-0 pj'>Near North Rapid station Opp.</p>
+            <p className=' mb-0 pj'>Delhi - Meerut Road</p>
+            <p className=' mb-0 pj'>201204</p>
+         </div>
+           </span>
+          
+</p>
+          </div>
+
+        </div>
+      </div>
     </div>
-</footer>
-    <div class="footer-policy">
-            <div class="row m-0">
-                <div class="col-sm-12 text-center">
-                    <p>Lorem ipsum  @ 2024 All rights reserved</p>
-                </div>
-            </div>
-        </div>
+  </div>
     </div>
   )
 }

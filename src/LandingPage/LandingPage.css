@@ -1,0 +1,62 @@
+.rww {
+    display: flex;
+    align-items: center;
+}
+.py {
+    display: flex;
+    justify-content: center;
+}
+.uy {
+    color: #2563EB;
+
+}
+.card-text{
+    font-weight: 600;
+    font-size: smaller;
+}
+.rows{
+    margin: 3rem;
+}
+.column{
+    padding: .5rem 1.5rem;
+}
+.rs{
+    height: 100%;
+    width: 100%;
+}
+
+ 
+.back-ground {
+    height: 100vh;
+    background:
+    url('../Images/Frame1.png');   background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h2edit {
+font-size: clamp(22px, 4vw, 44px);
+font-weight: 700;
+
+}
+.pedit {
+font-size: clamp(10px, 2vw, 16px);
+font-weight: 400;
+margin-bottom: 0px !important;
+
+}
+.home-section{
+    position: relative;
+    top: 23%;
+}
+#green1 {
+    border-radius: 5px !important;
+    padding: 15px 32px !important;
+    gap: 8px !important;
+
+    background-color: white!important;
+    color: black!important;
+    border: 2px solid transparent; 
+    margin-top: 40px !important;
+    width: auto;
+    font-weight: 600;
+}
