@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div>
      <div class="container-fluid  " style={{backgrounColor: "#FAFAFB"}}>
-    <div class="  footers_section text-dark">
+    <div class=" p-5 m-5 text-dark">
       <div class="row mt-5  text-dark">
         <div class="col-lg-4 mt-5 text-start text-dark col-md-6 col-sm-6 allaresame text-dark mb-5">
           <h5><b>VBSTECH SOLUTIONS</b></h5>
@@ -61,7 +61,7 @@ export default function Footer() {
          
 
          <div >
-         <p className=' mb-0 pj'>Vbs Tech Solutions India Pvt Ltd </p>
+            <p className=' mb-0 pj'>Vbs Tech Solutions India Pvt Ltd </p>
             <p className=' mb-0 pj'>Near North Rapid station Opp.</p>
             <p className=' mb-0 pj'>Delhi - Meerut Road</p>
             <p className=' mb-0 pj'>201204</p>
