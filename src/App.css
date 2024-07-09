@@ -262,7 +262,8 @@ margin: 0px 26px 0px 36px !important;
  }
 
  .google img {
-   max-width: 132px;
+   max-width: 169px;
+
  }
 .google h2{
   font-family: adieu light, Sans-serif;
@@ -289,7 +290,7 @@ margin: 0px 26px 0px 36px !important;
   flex: 1 0 140px
 } */
  .advertisment_section {
-   margin-top: 100px;
+   margin-top: 20px;
  }
  .nav-link.active {
   border-bottom: 2px solid orangered; /* Change the color and width as needed */
@@ -441,7 +442,7 @@ margin: 0px 26px 0px 36px !important;
   display: flex;
 }
 .googles img {
-  max-width: 132px;
+  max-width: 170px;
 }
 .elementor-toggle-title{
   font-family: circular air, Sans-serif;
@@ -881,7 +882,7 @@ margin: 0px;
 }
 .google{
   height: 50px ;
-  padding: 20px;
+  /* padding: 20px; */
 }
 .text{
   color: #000;
@@ -1033,7 +1034,8 @@ color: white;
       flex: 1 1 40%; /* Adjust for fewer logos per row on small screens */
     }
     .google img {
-      max-width: 74px;
+      max-width: 122px;
+      object-fit: contain;
     }
     .brand-logo_heading
     {
@@ -1067,7 +1069,106 @@ display: none;
     .brand-logo {
       width: 100px;
     }
+    .containet_holder {
+      padding: 0px;
+  }
   }
 .f6{
 font-size: 1em;
+}
+/* @media (max-width: px) {
+  .google img {
+    max-width: 122px;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add this to your CSS file */
+.offcanvas-start {
+  width: 250px; /* Adjust the width as needed */
+}
+
+.offcanvas-title {
+  margin-left: 10px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-custom {
+  background-color: #f8f9fa; /* Customize as needed */
+}
+
+/* Additional styles for the nav links */
+.nav-link.change {
+  color: #343a40; /* Customize as needed */
+}
+
+.nav-link.change.active {
+  font-weight: bold;
+  color: #000; /* Customize active link color */
+}
+.offcanvas {
+  width: 200px !important;
+}
+@media (max-width:991px) {
+  .btnn {
+    display: none;
+  }
+
+}
+@media (max-width:991px) {
+  .btn1 {
+    display: flex !important;
+  }
+
+}
+.btn1 {
+  display: none;
+  padding: 10px;
+}
+.hww {
+  gap:20px;
 }

@@ -86,19 +86,19 @@ export default function LandingPage() {
           <div className='d-flex containers'>
 
             <div className='google d-flex align-items-center'>
-              <img src={img2} />
+              <img src={img2} className='imgphoto' />
             </div>
             <div className='google d-flex align-items-center'>
-              <img src={img3} />
+              <img src={img3} className='imgphoto' />
             </div>
             <div className='google d-flex align-items-center'>
-              <img src={img4} />
+              <img src={img4} className='imgphoto'/>
             </div>
             <div className='google d-flex align-items-center'>
-              <img src={img5} />
+              <img src={img5} className='imgphoto' />
             </div>
             <div className='google d-flex align-items-center'>
-              <img src={img6} />
+              <img src={img6} className='imgphoto' />
             </div>
           </div>
 
@@ -500,10 +500,10 @@ export default function LandingPage() {
           <div class="col-lg-6 col-md-6 mt-5">
             <div class="">
               <div class="row g-0">
-                <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-6">
                   <img src={img21} class="rounded-start rs" alt="..." />
                 </div>
-                <div class="col-lg-8 col-md-12 col-sm-12  column">
+                <div class="col-lg-8 col-md-12 col-sm-6  column">
                   <div class="card-body text-start">
                     <div>
                       {[1, 2, 3, 4, 5].map((star, index) => {
@@ -534,10 +534,10 @@ export default function LandingPage() {
           <div class="col-lg-6 col-md-6 mt-5">
             <div class=" ">
               <div class="row g-0">
-                <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-6">
                   <img src={img22} class="rounded-start rs" alt="..." />
                 </div>
-                <div class="col-lg-8 col-md-12 col-sm-12 column">
+                <div class="col-lg-8 col-md-12 col-sm-6 column">
                   <div class="card-body text-start">
                     <div>
                       {[1, 2, 3, 4, 5].map((star, index) => {

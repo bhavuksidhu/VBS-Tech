@@ -51,3 +51,13 @@
     position: relative;
     top: 5px;
   }
+  .footers_section{
+margin: 3rem;
+padding: 3rem;
+  }
+  @media(max-width:575px){
+    .footers_section{
+        padding: 0px;
+        margin: 0px;
+    }
+}
