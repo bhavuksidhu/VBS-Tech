@@ -63,7 +63,7 @@ export default function Footer() {
          <div >
          <p className=' mb-0 pj'>Vbs Tech Solutions India Pvt Ltd </p>
             <p className=' mb-0 pj'>Near North Rapid station Opp.</p>
-            <p className=' mb-0 pj'>Delhi - Meerut Road</p>
+            <p className=' mb-0 pj'>Delhi-Meerut Road</p>
             <p className=' mb-0 pj'>201204</p>
          </div>
            </span>
