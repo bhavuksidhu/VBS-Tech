@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState  } from 'react'
+import { Link } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import './LandingPage.css';
@@ -70,7 +71,7 @@ export default function LandingPage() {
                   business and see the results for yourself.</p>
               </div>
               <div>
-                   <button class="btn btn-primary " id="green1" type="submit" >Get Started</button>
+                   <Link class="btn btn-primary " id="green1" type="submit" to='/webdesign' >Get Started</Link>
                    
 
 
@@ -216,7 +217,7 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
-      <div className='container pt-5 pb-5' style={{ backgroundColor: "#FAFAFB" }}>
+      <div className='container pb-5' style={{ backgroundColor: "#FAFAFB" }}>
         <section className='container'>
           <div className=''>
             <div className='row'>
@@ -232,10 +233,10 @@ export default function LandingPage() {
                     <p className='paragraph'>
                       At VBSTECH SOLUTIONS, we believe that every local business can achieve big things. Our digital marketing agency specializes in crafting customized strategies that prioritize people and drive results. Let us help put your business on the map and propel you to the next stage of your journey.         </p>
                   </div>
-                  <div className='btns'>
-                    <button className='button_for_start'>
+                  <div className='btns mt-5'>
+                    <Link className='button_for_start' to="/contactus">
                       Contact Us
-                    </button>
+                    </Link>
                   </div>
                 </div>
 
@@ -314,7 +315,7 @@ export default function LandingPage() {
                   </ul>
                 </div>
                 <div className='mt-4 btns'>
-                  <button className='button_for_start'>Get started</button>
+                  <Link className='button_for_start' to='/webdesign'>Get started</Link>
 
                 </div>
               </div>
@@ -358,7 +359,7 @@ export default function LandingPage() {
                   </ul>
                 </div>
                 <div className='mt-4 btns'>
-                  <button className='button_for_start'>Get started</button>
+                  <Link className='button_for_start' to='/webdesign'>Get started</Link>
 
                 </div>
               </div>

@@ -96,7 +96,6 @@ const blogPosts = [
       'The Metaverse has been the buzzword for web development companies, app developers, and end-users. With social media giant Facebook and software conglomerate, Microsoft claims to make this technology more advanced with passing the time. But what is the Metaverse? And what will be the features of Metaverse? In this blog, we will try to answer [...]',
     link: '#',
   }
-  // Add more blog post objects as needed
 ];
 
 const Marketo = () => {

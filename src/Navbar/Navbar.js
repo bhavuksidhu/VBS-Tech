@@ -27,7 +27,7 @@ function Navbar() {
                 <NavLink className="nav-link change text-dark" to="/socialmedia" activeClassName="active">About</NavLink>
               </li>
               <li className="nav-item ms-4 mt-2">
-                <NavLink className="nav-link change text-dark" to="/paidsearch" activeClassName="active">Page</NavLink>
+                <NavLink className="nav-link change text-dark" to="/paidsearch" activeClassName="active">Project</NavLink>
               </li>
               <li className="nav-item ms-4 mt-2">
                 <NavLink className="nav-link change text-dark" to="/webdesign" activeClassName="active">Service</NavLink>
