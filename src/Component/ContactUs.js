@@ -6,6 +6,7 @@ import PricingCards from './PricingCards';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Form from './Form';
+import './ContactUs.css';
 export default function ContactUs() {
     useEffect(() => {
         AOS.init({ duration: 1000 });
@@ -13,6 +14,22 @@ export default function ContactUs() {
   return (
     <>
          <Navbar />
+         <div className='container-fluid text-white back-ground4'>
+        <div className='container home-section4'>
+          <div className='row'>
+            <div className='col-lg-12'>
+              <div>
+                <h1 className='h2edit4'>Contact</h1>
+              </div>
+              <div>
+                <p className='pedit4'>Get answers to your questions and queries. We are available 24/7.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
          <PricingCards/>
          
          <div className="container-fluid consultation-form  prent">

@@ -3,6 +3,7 @@
     background:
     url('../Images/about1.jpg');   background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .h2edit {
@@ -11,7 +12,7 @@ font-weight: 700;
 
 }
 .pedit {
-font-size: clamp(16px, 5vw, 16px);
+font-size: clamp(18px, 5vw, 16px);
 font-weight: 400;
 margin-bottom: 0px !important;
 
@@ -41,8 +42,11 @@ margin-bottom: 0px !important;
 .imgdiv {
     width: fit-content;
     height: fit-content;
+    object-fit: cover;
 }
 .paradiv {
     font-size: small;
 }
+
+
 
