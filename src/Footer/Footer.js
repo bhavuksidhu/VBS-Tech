@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   const phoneNumber = '+91 7300720901';
@@ -12,6 +13,17 @@ export default function Footer() {
   const handleEmailClick = () => {
     window.location.href = `mailto:${emailAddress}`;
   };
+
+  const openGoogleMaps = () => {
+    // Construct the address to be opened in Google Maps
+    var address = "Bestech solutions , near pyarelal hospital , Bank colony , Modinagar 201204";
+
+    // Encode the address for use in the Google Maps URL
+    var encodedAddress = encodeURIComponent(address);
+
+    // Open Google Maps in a new tab
+    window.open("https://www.google.com/maps/search/?api=1&query=" + encodedAddress, "_blank");
+  }
   return (
     <div>
       <div class="container-fluid  cor">
@@ -24,21 +36,22 @@ export default function Footer() {
                 implement all your ideas to life.
               </p>
               <div class="d-flex justify-content-evenly col-lg-7">
-                <i class="fa-brands fa-twitter  fs-4"></i>
-                <i class="fa-brands fa-facebook fs-4"></i>
+                <a href="https://www.linkedin.com/company/vbs-tech-solutions"><i class="fa-brands fa-linkedin fs-4"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100095661125928"><i class="fa-brands fa-facebook fs-4"></i></a>
                 <a href="https://www.instagram.com/vbstechsolutions/"><i class="fa-brands fa-instagram fs-4"></i></a>
 
-                <i class="fa-brands fa-github  fs-4"></i>
+               <a href="https://github.com/VBS-Tech-Solutions-India-Pvt-Ltd"> <i class="fa-brands fa-github  fs-4"></i></a>
               </div>
 
             </div>
             <div class="col-lg-2 mt-5 d-flex justify-content-center col-md-6 col-sm-6 himu">
               <div>
                 <h5> <b>Our Links</b></h5>
-                <p class="pj pt-3 br">About </p>
+                <p class="pj pt-3 br" to="/socialmedia">About </p>
                 <p class="pj br">Project </p>
                 <p class="pj br">Service </p>
-                <p class="pj br"> Blog</p>
+                <p class="pj br">Blog</p>
+                <p class="pj br">Contact Us</p>
               </div>
 
 
@@ -68,17 +81,18 @@ export default function Footer() {
                     <i className="fa-solid fa-envelope"></i>
                     <p className='mb-3 text-muted pj'>{emailAddress}</p>
                   </span>
-                  <span className='spn'>
+                  <span className='spn' onClick={openGoogleMaps}>
                     <div>
+
                       <i class="fa-solid fa-location-dot"></i>
                     </div>
 
+                    <div>
 
-                    <div >
-                      <p className=' mb-0 pj'>Vbs Tech Solutions India Pvt Ltd </p>
-                      <p className=' mb-0 pj'>Near North Rapid station Opp.</p>
-                      <p className=' mb-0 pj'>Delhi-Meerut Road</p>
-                      <p className=' mb-0 pj'>201204</p>
+                      <p className='mb-0 pj'>Vbs Tech Solutions India Pvt Ltd</p>
+                      <p className='mb-0 pj'>Near North Rapid station Opp.</p>
+                      <p className='mb-0 pj'>Delhi-Meerut Road</p>
+                      <p className='mb-0 pj'>201204</p>
                     </div>
                   </span>
 
