@@ -28,7 +28,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Rating } from 'react-simple-star-rating'
 
-export default function LandingPage() {
+export default function LandingPage({ setNav, nav }) {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -55,8 +55,8 @@ export default function LandingPage() {
   }
   return (
     <div>
-      <Navbar />
-      <div className='container-fluid text-white back-ground'>
+ {/* <Navbar setNav={setNav} nav={nav} /> */}
+       <div className='container-fluid text-white back-ground'>
         <div className='container home-section'>
           <div className='row'>
             <div className='col-lg-12'>

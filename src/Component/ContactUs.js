@@ -7,13 +7,13 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Form from './Form';
 import './ContactUs.css';
+import Mobiledevelop from './Mobiledevelop';
 export default function ContactUs() {
     useEffect(() => {
         AOS.init({ duration: 1000 });
       }, []);
   return (
     <>
-         <Navbar />
          <div className='container-fluid text-white back-ground4'>
         <div className='container home-section4'>
           <div className='row'>
@@ -44,6 +44,7 @@ export default function ContactUs() {
         </div>
         <hr className="custom-hr" />
   <Footer />
+  <Mobiledevelop/>
     </>
   
   )

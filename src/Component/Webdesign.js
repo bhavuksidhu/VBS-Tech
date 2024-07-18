@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
+import { Link } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 import img2 from '../Images/service2.png';
 import img3 from '../Images/service3.png';
@@ -12,7 +12,6 @@ import './Webdesign.css';
 export default function Webdesign() {
   return (
     <div>
-      <Navbar />
       <div className='container-fluid text-white back-ground2'>
         <div className='container home-section2'>
           <div className='row'>
@@ -60,9 +59,9 @@ export default function Webdesign() {
                 delivering excellence.
               </p>
               <p className="d-flex">
-                <a href="#" className="btn btn-primary fs-5">
+                <Link to="/webdevelopment" className="btn btn-primary fs-5">
                   Know Now
-                </a>{' '}
+                </Link>{' '}
                 <i className="fa-solid fa-arrow-right fs-3 pt-2 text-primary"></i>
               </p>
             </div>
@@ -91,9 +90,9 @@ export default function Webdesign() {
                 various devices and platforms.
               </p>
               <p className="d-flex">
-                <a href="#" className="btn btn-primary fs-5">
+                <Link to="/mobileappdevelopment" className="btn btn-primary fs-5">
                   Know Now
-                </a>{' '}
+                </Link>{' '}
                 <i className="fa-solid fa-arrow-right fs-3 pt-2 text-primary"></i>
               </p>
             </div>
@@ -133,9 +132,9 @@ export default function Webdesign() {
                     that your business can excel.
               </p>
               <p className="d-flex">
-                <a href="#" className="btn btn-primary fs-5">
+                <Link to="/webdesignn" className="btn btn-primary  fs-5">
                   Know Now
-                </a>{' '}
+                </Link>{' '}
                 <i className="fa-solid fa-arrow-right fs-3 pt-2 text-primary"></i>
               </p>
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import img1 from '../Images/logo.png';
 
-function Navbar() {
+function Navbar(props) {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
@@ -13,7 +13,7 @@ function Navbar() {
               
         <div className='d-flex hww'>
         <NavLink className="nav-link change text-light btn1  ms-4 mt-2 btnn" style={{ backgroundColor: "black" }} to="/contactus" activeClassName="active">Contact Us</NavLink>
-        <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style={{ border: "none" }}>
+        <button className="navbar-toggler" type="button" onClick={() => props.setNav(true)} data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style={{ border: "none" }}>
             <span className="navbar-toggler-icon"></span>
           </button>
           </div>  
@@ -42,7 +42,8 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+      {props.nav==true ? <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div className="offcanvas-header">
           <img src={img1}/>
           <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -50,7 +51,7 @@ function Navbar() {
         <div className="offcanvas-body">
           <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li className="nav-item ms-4 mt-2">
-              <NavLink className="nav-link change text-dark" to="/" exact activeClassName="active">Home</NavLink>
+              <NavLink className="nav-link change text-dark" onClick={() => {props.setNav(false)}} to="/" exact activeClassName="active">Home</NavLink>
             </li>
             <li className="nav-item ms-4 mt-2">
               <NavLink className="nav-link change text-dark" to="/socialmedia" activeClassName="active">About</NavLink>
@@ -69,9 +70,9 @@ function Navbar() {
             </li>
           </ul>
         </div>
-      </div>
+      </div> : null }
+      
     </>
   );
 }
-
-export default Navbar;
+export default Navbar ; 

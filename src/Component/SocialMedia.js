@@ -14,7 +14,6 @@ export default function SocialMedia() {
   // }, []);
   return (
     <div>
-      <Navbar />
       <div className='container-fluid text-white back-ground1'>
         <div className='container home-section1'>
           <div className='row'>
