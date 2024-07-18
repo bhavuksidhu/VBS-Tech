@@ -67,7 +67,7 @@ export default function Webdesignn() {
                                     <div className='divwd2'>
                                         <p><b>Landing Page Design
                                         </b></p>
-                                        <p className='paradiv'>Your landing page represents your website. And we make the page more engaging so you can reap the benefit of boosted traffic & ROI.
+                                        <p className='paradiv'>Your landing  represents your website. And we make the page more engaging so you can reap the benefit of boosted traffic & ROI.
 
                                         </p>
                                     </div>
