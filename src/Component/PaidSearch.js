@@ -5,7 +5,6 @@ import Form from './Form';
 export default function PaidSearch() {
   return (
     <div>
-       <Navbar />
        <section className='added'>
     <div className='container'>
         <div className='row'>

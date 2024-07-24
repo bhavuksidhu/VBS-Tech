@@ -1,0 +1,48 @@
+.back-groundd {
+    background-color: white;
+  }
+  
+  .gapes {
+    gap: 25px;
+  }
+  
+  .nav-item a {
+    color: black !important;
+  }
+  
+  .logoImg {
+    height: 46px;
+    filter: brightness(-2.5);
+  }
+  
+  .mauto {
+    margin: auto;
+  }
+  
+  @media (max-width: 991px) {
+    .mauto {
+      margin: 0px;
+      display: none;
+    }
+  }
+  #navbarSupportedContent{
+display: none;
+  }
+    .mauto1{
+      @media screen and (min-width: 991px) and (max-width:2000px) {
+display: none;
+      }
+
+    }
+.navbaricon{
+    gap: 20px;
+    align-items: center;
+}
+  .offcanvas {
+    width: 210px !important;
+  }
+  .nav-link.active {
+    color: red; /* Example styling for active link */
+    /* Add any other styles you want to indicate the link is active */
+  }
+  

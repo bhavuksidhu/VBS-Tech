@@ -1,78 +1,82 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import img1 from '../Images/logo.png';
+import './Navbar.css';
 
-function Navbar(props) {
+export default function Navbar({ cart }) {
+  const [isOffcanvasOpen, setIsOffcanvasOpen] = useState(false);
+
+  const toggleOffcanvas = () => {
+    setIsOffcanvasOpen(!isOffcanvasOpen);
+  };
+
+  const closeOffcanvas = () => {
+    setIsOffcanvasOpen(false);
+  };
+
   return (
-    <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="/">
-            <img src={img1} className="ms-3 mb-2 " alt="Logo" style={{ width: "100px" }} />
-          </a>
-              
-        <div className='d-flex hww'>
-        <NavLink className="nav-link change text-light btn1  ms-4 mt-2 btnn" style={{ backgroundColor: "black" }} to="/contactus" activeClassName="active">Contact Us</NavLink>
-        <button className="navbar-toggler" type="button" onClick={() => props.setNav(true)} data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style={{ border: "none" }}>
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          </div>  
-         
-          <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul className="navbar-nav mb-2 mb-lg-0">
-              <li className="nav-item ms-4 mt-2">
-                <NavLink className="nav-link change text-dark" to="/" exact activeClassName="active">Home</NavLink>
+    <div>
+      <nav className="navbar navbar-expand-lg back-groundd">
+        <div className="container d-flex justify-content-between div1">
+          <img src={img1} className="logoImg" alt="Logo" />
+          <div className='d-flex navbaricon'>
+            <NavLink className="nav-link change text-light btn1 ms-4 mt-2 btnn" style={{ backgroundColor: "black" }} to="/contactus" activeClassName="active" onClick={closeOffcanvas}>Contact Us</NavLink>
+            <button className="navbar-toggler" type="button" onClick={toggleOffcanvas} aria-expanded={isOffcanvasOpen ? "true" : "false"}>
+              <span className="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div className={`collapse navbar-collapse ${isOffcanvasOpen ? 'show' : ''}`} id="navbarSupportedContent">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gapes">
+              <li className="nav-item">
+                <NavLink className="nav-link" exact to="/" activeClassName="active" onClick={closeOffcanvas}>Home</NavLink>
               </li>
-              <li className="nav-item ms-4 mt-2">
-                <NavLink className="nav-link change text-dark" to="/socialmedia" activeClassName="active">About</NavLink>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/socialmedia" activeClassName="active" onClick={closeOffcanvas}>About</NavLink>
               </li>
-              <li className="nav-item ms-4 mt-2">
-                <NavLink className="nav-link change text-dark" to="/paidsearch" activeClassName="active">Project</NavLink>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/paidsearch" activeClassName="active" onClick={closeOffcanvas}>Project</NavLink>
               </li>
-              <li className="nav-item ms-4 mt-2">
-                <NavLink className="nav-link change text-dark" to="/webdesign" activeClassName="active">Service</NavLink>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/webdesign" activeClassName="active" onClick={closeOffcanvas}>Service</NavLink>
               </li>
-              <li className="nav-item ms-4 mt-2">
-                <NavLink className="nav-link change text-dark" to="/merkto" activeClassName="active">Blog</NavLink>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/merkto" activeClassName="active" onClick={closeOffcanvas}>Blog</NavLink>
               </li>
-              <li className="nav-item ms-4 mt-2">
-                <NavLink className="nav-link change text-light" style={{ backgroundColor: "black" }} to="/contactus" activeClassName="active">Contact Us</NavLink>
+              <li className="nav-item">
+                <NavLink className="nav-link "  to="/contactus" activeClassName="active" onClick={closeOffcanvas}>Contact Us</NavLink>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-      {props.nav==true ? <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div className={`offcanvas offcanvas-start ${isOffcanvasOpen ? 'show' : ''}`} tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div className="offcanvas-header">
-          <img src={img1}/>
-          <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <img src={img1} className="logoImg" alt="Logo" />
+          <button type="button" className="btn-close" onClick={toggleOffcanvas} aria-label="Close"></button>
         </div>
         <div className="offcanvas-body">
           <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li className="nav-item ms-4 mt-2">
-              <NavLink className="nav-link change text-dark" onClick={() => {props.setNav(false)}} to="/" exact activeClassName="active">Home</NavLink>
+            <li className="nav-item">
+              <NavLink className="nav-link" exact to="/" activeClassName="active" onClick={closeOffcanvas}>Home</NavLink>
             </li>
-            <li className="nav-item ms-4 mt-2">
-              <NavLink className="nav-link change text-dark" to="/socialmedia" activeClassName="active">About</NavLink>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/socialmedia" activeClassName="active" onClick={closeOffcanvas}>About</NavLink>
             </li>
-            <li className="nav-item ms-4 mt-2">
-              <NavLink className="nav-link change text-dark" to="/paidsearch" activeClassName="active">Page</NavLink>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/paidsearch" activeClassName="active" onClick={closeOffcanvas}>Project</NavLink>
             </li>
-            <li className="nav-item ms-4 mt-2">
-              <NavLink className="nav-link change text-dark" to="/webdesign" activeClassName="active">Service</NavLink>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/webdesign" activeClassName="active" onClick={closeOffcanvas}>Service</NavLink>
             </li>
-            <li className="nav-item ms-4 mt-2">
-              <NavLink className="nav-link change text-dark" to="/merkto" activeClassName="active">Blog</NavLink>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/merkto" activeClassName="active" onClick={closeOffcanvas}>Blog</NavLink>
             </li>
-            <li className="nav-item ms-4 mt-2 btnn">
-              <NavLink className="nav-link change text-light" style={{ backgroundColor: "black" }} to="/contactus" activeClassName="active">Contact Us</NavLink>
-            </li>
+            
           </ul>
         </div>
-      </div> : null }
-      
-    </>
+      </div>
+    </div>
   );
 }
-export default Navbar ; 

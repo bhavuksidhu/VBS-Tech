@@ -293,7 +293,12 @@ margin: 0px 26px 0px 36px !important;
  .nav-link.active {
   border-bottom: 2px solid orangered; /* Change the color and width as needed */
 }
-
+@media(min-width:991px){
+  #offcanvasNavbar{
+      display: none;
+            
+  }
+}
  .containet_holder {
    padding: 0px 46px 0px 46px;
  }
@@ -1177,3 +1182,9 @@ font-size: 1em;
 .hww {
   gap:20px;
 }
+.btn2 {
+  color: white;
+  padding: 10px;
+}
+
+

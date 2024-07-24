@@ -101,7 +101,6 @@ const blogPosts = [
 const Marketo = () => {
   return (
     <>
-    <Navbar/>
     <div className='container-fluid text-white back-ground3'>
         <div className='container home-section3'>
           <div className='row'>
