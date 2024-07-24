@@ -68,6 +68,7 @@ export default function Footer() {
                   </span>
                   <span className='spn' onClick={openGoogleMaps}>
                     <div>
+
                       <i class="fa-solid fa-location-dot"></i>
                     </div>
                     <div>
