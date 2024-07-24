@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 export default function Footer() {
   const phoneNumber = '+91 7300720901';
   const emailAddress = 'contact@vbstechsolutions.com';
@@ -39,11 +39,16 @@ export default function Footer() {
             <div class="col-lg-2 mt-5 d-flex justify-content-center col-md-6 col-sm-6 himu">
               <div>
                 <h5> <b>Our Links</b></h5>
-                <p class="pj pt-3 br" to="/socialmedia">About </p>
-                <p class="pj br">Project </p>
-                <p class="pj br">Service </p>
-                <p class="pj br">Blog</p>
-                <p class="pj br">Contact Us</p>
+                <NavLink to="/socialmedia"><p class="pj pt-3 br" >About </p></NavLink>
+                <NavLink to="/paidsearch"> <p class="pj br">Project </p></NavLink>
+                <NavLink to="/webdesign"><p class="pj br">Service </p></NavLink>
+                <NavLink to="/merkto"><p class="pj br">Blog</p></NavLink>
+                <NavLink  to="/contactus"><p class="pj br">Contact Us</p></NavLink>
+              
+               
+                
+                
+                
               </div>
             </div>
             <div class=" col-lg-3 mt-5 boy d-flex justify-content-start col-md-6 col-sm-6">

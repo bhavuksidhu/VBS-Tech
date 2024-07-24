@@ -87,19 +87,22 @@ export default function LandingPage() {
           <div className='d-flex containers'>
 
             <div className='google d-flex align-items-center'>
-              <img src={img2} className='imgphoto' />
+              <Link to="https://boldly.app/"><img src={img2} className='imgphoto' /> </Link>
+             
+              
             </div>
             <div className='google d-flex align-items-center'>
-              <img src={img3} className='imgphoto' />
+              <Link to="https://www.worshipserve.com/"> <img src={img3} className='imgphoto' /></Link>
+             
             </div>
             <div className='google d-flex align-items-center'>
-              <img src={img4} className='imgphoto'/>
+              <Link to="https://canvascultures.com/"><img src={img4} className='imgphoto'/></Link>
             </div>
             <div className='google d-flex align-items-center'>
-              <img src={img5} className='imgphoto' />
+             <Link to="https://www.nanovest.io/en/"> <img src={img5} className='imgphoto' /></Link>
             </div>
             <div className='google d-flex align-items-center'>
-              <img src={img6} className='imgphoto' />
+             <Link to="https://nursingexperts.in/"> <img src={img6} className='imgphoto' /></Link>
             </div>
           </div>
 

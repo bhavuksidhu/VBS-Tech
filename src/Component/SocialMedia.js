@@ -37,7 +37,7 @@ export default function SocialMedia() {
       <div className='container-fluid pt-5'>
         <div className='container'>
           <div className='row  gapes'>
-            <div className='col-lg-6 col-md-6 col-sm-12'>
+            <div className='col-lg-5 col-md-6 col-sm-12'>
               <div className='img p-3'>
                 <img src={img1} className='imgdiv' />
               </div>

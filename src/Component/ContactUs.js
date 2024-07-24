@@ -44,7 +44,6 @@ export default function ContactUs() {
         </div>
         <hr className="custom-hr" />
   <Footer />
-  <Mobiledevelop/>
     </>
   
   )

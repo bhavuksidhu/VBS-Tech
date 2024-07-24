@@ -18,7 +18,10 @@ export default function Navbar({ cart }) {
     <div>
       <nav className="navbar navbar-expand-lg back-groundd">
         <div className="container d-flex justify-content-between div1">
-          <img src={img1} className="logoImg" alt="Logo" />
+        <NavLink  exact to="/">
+          <img src={img1} className="logoImg"  alt="Logo" />
+          </NavLink>
+        
           <div className='d-flex navbaricon'>
             <NavLink className="nav-link change text-light btn1 ms-4 mt-2 btnn" style={{ backgroundColor: "black" }} to="/contactus" activeClassName="active" onClick={closeOffcanvas}>Contact Us</NavLink>
             <button className="navbar-toggler" type="button" onClick={toggleOffcanvas} aria-expanded={isOffcanvasOpen ? "true" : "false"}>
@@ -53,7 +56,10 @@ export default function Navbar({ cart }) {
 
       <div className={`offcanvas offcanvas-start ${isOffcanvasOpen ? 'show' : ''}`} tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div className="offcanvas-header">
+          <NavLink  exact to="/">
           <img src={img1} className="logoImg" alt="Logo" />
+          </NavLink>
+        
           <button type="button" className="btn-close" onClick={toggleOffcanvas} aria-label="Close"></button>
         </div>
         <div className="offcanvas-body">
