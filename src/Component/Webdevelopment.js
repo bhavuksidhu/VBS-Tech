@@ -38,7 +38,7 @@ export default function Webdevelopment() {
         </div>
         <div className='container-fluid pt-5'>
             <div className='container'>
-                <div className='row'>
+                <div className='row bi'>
                     <div className='col-lg-6 col-md-6 col-sm-12'>
                         <div className='divwd'>
                             <img src={img1} className='imgdiv1'/>
@@ -62,7 +62,10 @@ export default function Webdevelopment() {
 
                         </div>
                     </div>
-                    <div className='row mt-5'>
+                   
+                 
+                </div>
+                <div className='row mt-5 bi'>
                     <div className='col-lg-6 col-md-6 col-sm-12'>
                         <div className='divwd'>
                             <img src={img3} className='imgdiv1'/>
@@ -88,8 +91,6 @@ export default function Webdevelopment() {
                         </div>
                     </div>
                     </div>
-                 
-                </div>
             </div>
         </div>
         <Footer/>
