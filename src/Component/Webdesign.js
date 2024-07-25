@@ -227,7 +227,7 @@ export default function Webdesign() {
                  successfully.
               </p>
               <p className="d-flex">
-                <Link to="/graphicdesign" className="btn btn-primary fs-5">
+                <Link to="/graphicdesign"  className="btn btn-primary fs-5">
                   Know Now
                 </Link>{' '}
                 <i className="fa-solid fa-arrow-right fs-3 pt-2 text-primary"></i>

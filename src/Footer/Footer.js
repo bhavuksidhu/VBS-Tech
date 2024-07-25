@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+
 import './Footer.css'
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 export default function Footer() {
   const phoneNumber = '+91 7300720901';
   const emailAddress = 'contact@vbstechsolutions.com';
   const handlePhoneClick = () => {
     window.open(`tel:${phoneNumber}`);
   };
+  useEffect(() => {
+    // Scroll to the top of the page on component mount
+    window.scrollTo(0, 0);
+  }, []);
+
   const handleEmailClick = () => {
     window.location.href = `mailto:${emailAddress}`;
   };
@@ -41,9 +48,9 @@ export default function Footer() {
                 <h5> <b>Our Links</b></h5>
                 <Link to="/socialmedia"><p class="pj pt-3 br" >About </p></Link>
                 <Link to="/paidsearch"> <p class="pj br">Project </p></Link>
-                <NavLink to="/webdesign"><p class="pj br">Service </p></NavLink>
-                <NavLink to="/merkto"><p class="pj br">Blog</p></NavLink>
-                <NavLink  to="/contactus"><p class="pj br">Contact Us</p></NavLink>
+                <Link to="/webdesign"><p class="pj br">Service </p></Link>
+                <Link to="/merkto"><p class="pj br">Blog</p></Link>
+                <Link to="/contactus"><p class="pj br">Contact Us</p></Link>
               
                
                 
@@ -54,10 +61,16 @@ export default function Footer() {
             <div class=" col-lg-3 mt-5 boy d-flex justify-content-start col-md-6 col-sm-6">
               <div>
                 <h5> <b>Our Services</b></h5>
-                <p class="pj  pt-3 br">E-commerce Solutions</p>
-                <p class="pj br"> Graphics Design</p>
-                <p class="pj br"> Web Development</p>
-                <p class="pj br"> Mobile App Development</p>
+                <Link to="/webdevelopment"> <p class="pj br pt-3"> Web Development</p></Link>
+                <Link to="/mobileappdevelopment"><p class="pj br"> Mobile App Development</p></Link>
+                <Link to="/webdesignn"><p class="pj br">Web Design</p></Link>
+                <Link to="/ecommerce"><p class="pj br">E-commerce Solutions</p></Link>
+                <Link to="/digitalmarketing"><p class="pj  br">Digital Marketing</p></Link>
+                <Link to="/graphicdesign"><p class="pj br"> Graphics Design</p></Link>
+                
+                
+               
+                
               </div>
             </div>
             <div class="col-lg-3 mt-5 boy d-flex justify-content-center col-md-6 col-sm-6 ">

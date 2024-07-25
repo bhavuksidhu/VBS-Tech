@@ -8,6 +8,7 @@ import Footer from '../Footer/Footer';
 
 export default function Webdevelopment() {
   return (
+ <>
     <div>
         <div className='container-fluid text-white back-ground6'>
             <div className='container  home-section6'>
@@ -93,10 +94,8 @@ export default function Webdevelopment() {
                     </div>
             </div>
         </div>
-        <Footer/>
-
-        
-      
     </div>
+            <Footer/>  
+ </>
   )
 }
