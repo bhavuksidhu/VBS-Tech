@@ -39,8 +39,8 @@ export default function Footer() {
             <div class="col-lg-2 mt-5 d-flex justify-content-center col-md-6 col-sm-6 himu">
               <div>
                 <h5> <b>Our Links</b></h5>
-                <NavLink to="/socialmedia"><p class="pj pt-3 br" >About </p></NavLink>
-                <NavLink to="/paidsearch"> <p class="pj br">Project </p></NavLink>
+                <Link to="/socialmedia"><p class="pj pt-3 br" >About </p></Link>
+                <Link to="/paidsearch"> <p class="pj br">Project </p></Link>
                 <NavLink to="/webdesign"><p class="pj br">Service </p></NavLink>
                 <NavLink to="/merkto"><p class="pj br">Blog</p></NavLink>
                 <NavLink  to="/contactus"><p class="pj br">Contact Us</p></NavLink>

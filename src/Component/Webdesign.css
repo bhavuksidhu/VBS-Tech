@@ -74,13 +74,10 @@ body {
     background-color: transparent;
     border: none;
     font-weight: bold;
-    padding-left: 0;
+    padding: 10px;
   }
   
-  .btn-primary:hover {
-    color: #0056b3;
-    text-decoration: underline;
-  }
+  
   
   .images {
     width: 100%;

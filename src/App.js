@@ -10,6 +10,10 @@ import PaidSearch from './Component/PaidSearch';
 import Webdevelopment from './Component/Webdevelopment';
 import Mobiledevelop from './Component/Mobiledevelop';
 import Webdesignn from './Component/Webdesignn';
+import Ecommerce from './Component/Ecommerce';
+import Digitalmarketing from './Component/Digitalmarketing';
+import Graphicdesign from './Component/Graphicdesign';
+
 
 function App() {
   const [nav, setNav] = useState(false);
@@ -28,6 +32,9 @@ function App() {
           <Route path="/webdevelopment" element={<Webdevelopment/>} />
           <Route path="/mobileappdevelopment" element={<Mobiledevelop/>} />
           <Route path="/webdesignn" element={<Webdesignn/>} />
+          <Route path="/ecommerce" element={<Ecommerce/>} />
+          <Route path="/digitalmarketing" element={<Digitalmarketing/>} />
+          <Route path="/graphicdesign" element={<Graphicdesign/>} />
         </Routes>
       </Router>
     </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 import './Services.css';
-import img1 from '../Images/wd1.png';
-import img2 from '../Images/wd2.png';
-import img3 from '../Images/wd3.png';
-import img4 from '../Images/wd4.png';
+import img1 from '../Images/image7.png';
+import img2 from '../Images/image8.png';
+import img3 from '../Images/image9.png';
+import img4 from '../Images/image10.png';
 import Footer from '../Footer/Footer';
 
 export default function Webdesignn() {
@@ -33,7 +33,7 @@ export default function Webdesignn() {
         </div>
         <div className='container-fluid pt-5'>
             <div className='container'>
-                <div className='row'>
+                <div className='row bi'>
                     <div className='col-lg-6 col-md-6 col-sm-12'>
                         <div className='divwd'>
                             <img src={img1} className='imgdiv1'/>
@@ -60,7 +60,10 @@ Design
 
                         </div>
                     </div>
-                    <div className='row mt-5'>
+                   
+                 
+                </div>
+                <div className='row mt-5 bi'>
                     <div className='col-lg-6 col-md-6 col-sm-12'>
                         <div className='divwd'>
                             <img src={img3} className='imgdiv1'/>
@@ -87,8 +90,6 @@ Design
                         </div>
                     </div>
                     </div>
-                 
-                </div>
             </div>
         </div>
         <Footer/>

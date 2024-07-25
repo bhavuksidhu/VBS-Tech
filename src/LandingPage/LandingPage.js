@@ -87,22 +87,22 @@ export default function LandingPage() {
           <div className='d-flex containers'>
 
             <div className='google d-flex align-items-center'>
-              <Link to="https://boldly.app/"><img src={img2} className='imgphoto' /> </Link>
+              <Link to="https://boldly.app/" target="https://boldly.app/"><img src={img2} className='imgphoto'  /> </Link>
              
               
             </div>
             <div className='google d-flex align-items-center'>
-              <a href="https://www.worshipserve.com/"> <img src={img3} className='imgphoto' /></a>
+              <Link href="https://www.worshipserve.com/"  target="https://www.worshipserve.com/"> <img src={img3} className='imgphoto' /></Link>
              
             </div>
             <div className='google d-flex align-items-center'>
-              <Link to="https://canvascultures.com/"><img src={img4} className='imgphoto'/></Link>
+              <Link to="https://canvascultures.com/" target="https://canvascultures.com/"><img src={img4} className='imgphoto'/></Link>
             </div>
             <div className='google d-flex align-items-center'>
-             <Link to="https://www.nanovest.io/en/"> <img src={img5} className='imgphoto' /></Link>
+             <Link to="https://www.nanovest.io/en/" target="https://www.nanovest.io/en/"> <img src={img5} className='imgphoto' /></Link>
             </div>
             <div className='google d-flex align-items-center'>
-             <Link to="https://nursingexperts.in/"> <img src={img6} className='imgphoto' /></Link>
+             <Link to="https://nursingexperts.in/" target="https://nursingexperts.in/"> <img src={img6} className='imgphoto' /></Link>
             </div>
           </div>
 

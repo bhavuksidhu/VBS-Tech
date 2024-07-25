@@ -158,9 +158,9 @@ export default function Webdesign() {
                A scalable solution that comes with Cross-browser & cross-device compatibility.
               </p>
               <p className="d-flex">
-                <a href="#" className="btn btn-primary fs-5">
+                <Link to="/ecommerce" className="btn btn-primary fs-5">
                   Know Now
-                </a>{' '}
+                </Link>{' '}
                 <i className="fa-solid fa-arrow-right fs-3 pt-2 text-primary"></i>
               </p>
             </div>
@@ -199,9 +199,9 @@ export default function Webdesign() {
                  drive targeted traffic to your website.
               </p>
               <p className="d-flex">
-                <a href="#" className="btn btn-primary fs-5">
+                <Link to="/digitalmarketing" className="btn btn-primary fs-5">
                   Know Now
-                </a>{' '}
+                </Link>{' '}
                 <i className="fa-solid fa-arrow-right fs-3 pt-2 text-primary"></i>
               </p>
             </div>
@@ -227,9 +227,9 @@ export default function Webdesign() {
                  successfully.
               </p>
               <p className="d-flex">
-                <a href="#" className="btn btn-primary fs-5">
+                <Link to="/graphicdesign" className="btn btn-primary fs-5">
                   Know Now
-                </a>{' '}
+                </Link>{' '}
                 <i className="fa-solid fa-arrow-right fs-3 pt-2 text-primary"></i>
               </p>
             </div>
