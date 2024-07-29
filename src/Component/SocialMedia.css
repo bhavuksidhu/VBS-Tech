@@ -28,6 +28,9 @@ margin-bottom: 0px !important;
     font-size: medium;
     line-height: 28px;
 }
+.para {
+    font-size: small;
+}
 @media(max-width:767px){
     .para{
         margin: 0px !important;
@@ -46,6 +49,11 @@ margin-bottom: 0px !important;
 }
 .paradiv {
     font-size: small;
+}
+@media(max-width:767px){
+    .fs{
+        font-size: small;
+    }
 }
 
 
