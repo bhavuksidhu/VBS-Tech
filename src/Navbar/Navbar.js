@@ -79,6 +79,9 @@ export default function Navbar({ cart }) {
             <li className="nav-item">
               <NavLink className="nav-link" to="/merkto" activeClassName="active" onClick={closeOffcanvas}>Blog</NavLink>
             </li>
+            <li className="nav-item">
+            <NavLink className="nav-link"  to="/contactus" activeClassName="active" onClick={closeOffcanvas}>ContactUs</NavLink>
+            </li>
             
           </ul>
         </div>

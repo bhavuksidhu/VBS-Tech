@@ -1,7 +1,7 @@
 .back-ground4 {
     height: 60vh;
     background:
-    url('../Images/contactusmain.jpg');   background-size: cover;
+    url('../Images/about1.jpg');   background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
@@ -25,4 +25,8 @@ margin-bottom: 0px !important;
     height: 100%;
     display: flex;
     align-items: center;
+}
+.logoes {
+    display: flex;
+    gap: 25px;
 }
