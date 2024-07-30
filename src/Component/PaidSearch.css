@@ -1,0 +1,35 @@
+.back-groundpr {
+    height: 60vh;
+    background:
+    url('../Images/Frame1.png');   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.h2editpr {
+font-size: clamp(29px, 4vw, 44px);
+font-weight: 700;
+
+}
+.peditpr {
+font-size: clamp(20px, 5vw, 16px);
+font-weight: 400;
+margin-bottom: 0px !important;
+;
+
+}
+.home-sectionpr{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .arr {
+   margin-top: 40px;
+   
+    }
+  }

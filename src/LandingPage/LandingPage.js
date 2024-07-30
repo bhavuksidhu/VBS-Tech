@@ -92,7 +92,7 @@ export default function LandingPage() {
               
             </div>
             <div className='google d-flex align-items-center'>
-              <Link href="https://www.worshipserve.com/"  target="https://www.worshipserve.com/"> <img src={img3} className='imgphoto' /></Link>
+              <Link to="https://worshipserve.com/" target="https://worshipserve.com/"><img src={img3} className='imgphoto' /></Link>
              
             </div>
             <div className='google d-flex align-items-center'>
