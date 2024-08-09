@@ -229,7 +229,7 @@ export default function LandingPage() {
                   <div className='heading' >
                     <div className='heading' data-aos="fade-up">
                       <h1 className='heading_text_content'>
-                        when You Win I win
+                        when You Win, We win
                       </h1>
                     </div>
 
@@ -340,7 +340,7 @@ export default function LandingPage() {
             <div className='col-lg-6 col-md-12 col-sm-12'>
               <div className='position-relative add_costume_Increase containet_holder mt-4'>
                 <div className='add_website_conversions' data-aos="fade-up">
-                  <h2>Increase in website conversions</h2>
+                  <h2>Increase in Revenue YoY</h2>
                 </div>
                 <div className=''>
                   <span>
@@ -348,7 +348,7 @@ export default function LandingPage() {
                   </span>
                 </div>
                 <div className='Everything'>
-                  <p>“Everything has improved. The redesign we did represents our brand, and the Facebook ads has made us a market leader. The SEO work continues to bring people to our site with content that shows improvement with each monthly report.” </p>
+                  <p>“Our sales volume has seen substantial growth, and we've experienced a fourfold increase in site visitors and traffic. With VBSTECH SOLUTIONS', I can easily track the performance of all my marketing campaigns. The intuitive graphs clearly reflect this success, showcasing impressive upward trends that resemble towering peaks.” </p>
                 </div>
                 <div>
                   <div className='add_website_conversions_Strategies' data-aos="fade-up">
@@ -457,7 +457,7 @@ export default function LandingPage() {
       <div className='container-fluid pt-5 pb-5' style={{ backgroundColor: "#FAFAFB" }}>
         <div class="container " >
           <div class="text-center">
-            <p className='uy'><b>Learn new technology</b></p>
+            <p className='uy'><b></b></p>
             <h1><b>Read our blog</b></h1>
           </div>
           <div class="row mt-5 py">
@@ -465,7 +465,7 @@ export default function LandingPage() {
               <div class="card" style={{ width: " 18rem", border: "none" }}>
                 <img src={img18} class="card-img-top" alt="..." style={{ borderRadius: "17px" }} />
                 <div class="card-body mt-3 text-start">
-                  <h6 class="card-text mt-3"> <b>Most popular design systems to learn from in 2022</b></h6>
+                  <h6 class="card-text mt-3"> <b>Most popular design systems to learn from in 2024</b></h6>
                   <p className='uy'>Design Systems</p>
                 </div>
               </div>

@@ -136,13 +136,11 @@ export default function SocialMedia() {
                       <span className="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
                         <span className="elementor-toggle-icon-closed"><i className="fas fa-caret-right"></i></span>
                       </span>
-                      <a tabIndex="1" className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">What is Google Adwards ?</a>
+                      <a tabIndex="1" className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">What types of projects does VBSTECH SOLUTIONS specialize in?</a>
                     </div>
                     <div className="collapse" id="collapseExample1">
                       <div className="card card-body border-0 fs">
-                        Google AdWords is arguably the most targeted form of advertising out there. It’s so targeted because when people search on Google, they’re essentially telling you exactly what they’re looking for. And that’s where your ad can show up – right alongside those search results!
-                        What’s more, it’s also one of the most trackable forms of advertising available – as long as you set up conversion tracking on your website. When you compare this to other forms of advertising like radio and print, it’s easy to see why. With radio and print, it can be tough to determine just how well they’re working for you. Sure, if your store gets busier after running a radio or print ad, you might assume it’s working.
-                        But can you accurately calculate the cost per lead or figure out the best time to run your ad? And what if you decide to run both radio and print ads at the same time? It’s pretty much impossible to know which one worked better.
+                      VBSTECH SOLUTIONS specializes in developing custom web and mobile applications. We focus on creating innovative and smart solutions tailored to your business needs. Our expertise extends to providing comprehensive web-based user interface experiences and ensuring data security and compliance.
                       </div>
                     </div>
                   </div>
@@ -152,13 +150,11 @@ export default function SocialMedia() {
                       <span className="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
                         <span className="elementor-toggle-icon-closed"><i className="fas fa-caret-right"></i></span>
                       </span>
-                      <a className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2" tabIndex="2">Is Google Awords Only Search Adverts?</a>
+                      <a className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2" tabIndex="2">How experienced is your team in software development?</a>
                     </div>
                     <div className="collapse" id="collapseExample2">
                       <div className="card card-body border-0 fs">
-                        No, Google AdWords is much more than just a single type of ad! It’s actually an advertising platform that gives you access to a wide range of advertising locations and campaign types. The most commonly talked about type of ad is the Search ad, but there are many other options available as well. For example, there are Display ads, which are the banners you see on websites. There’s also Remarketing, which lets you show ads to people who have already visited your website. And don’t forget about YouTube – you can advertise there too, with both banners and video ads.
-                        On top of that, there are many different ad formats to choose from. You can use text display ads, static banners, animated banners, videos, and even lightboxes. With so many options available, you can find the ad format that works best for your specific needs and goals.
-                      </div>
+                      Our team comprises over 20+ skilled professionals with more than 10 years of experience in developing web and mobile applications. Our collective expertise allows us to handle a wide range of projects with high efficiency and creativity </div>
                     </div>
                   </div>
                   <hr />
@@ -167,17 +163,11 @@ export default function SocialMedia() {
                       <span className="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
                         <span className="elementor-toggle-icon-closed"><i className="fas fa-caret-right"></i></span>
                       </span>
-                      <a className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" tabIndex="3">What’s The Difference Between Google AdWords And SEO (Search Engine Optimization)?</a>
+                      <a className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" tabIndex="3">What kind of support can we expect after the project is completed?</a>
                     </div>
                     <div className="collapse" id="collapseExample3">
                       <div className="card card-body border-0 fs">
-                        SEO is a long-term game that involves setting up your website and online presence in the right way to attract more organic search and referral traffic. This type of traffic doesn’t cost anything, but you’ll need to invest time and money to get it right.
-                        Despite its importance, SEO is often overlooked and underestimated by both businesses and web developers. It should always be a crucial element of your digital marketing mix.
-                        On the other hand, Google AdWords is a quick way to bring in targeted traffic to your website. It’s easy to set up and generally faster than SEO when it comes to generating traffic. Both options require ongoing investment, but with AdWords, you’ll only pay for clicks from interested users.
-                        With SEO, you need to invest before you can start to see traffic coming in. With Google AdWords, you usually pay only when people click through to your website.
-                        Both SEO and AdWords are important. In fact, certain SEO elements can help improve the quality of your AdWords campaigns.
-                        It’s worth noting that running paid advertising with Google won’t affect your organic search rankings. However, it may boost the clickthrough rate of your organic listings, as searchers may see your brand in an ad before scrolling down to your organic listing.
-                      </div>
+                      After the project is handed over, our dedicated support team ensures that you receive ongoing assistance with immense care and approachability. We are committed to resolving any issues, answering questions, and providing updates as needed to ensure your continued satisfaction.                      </div>
                     </div>
                   </div>
                   <hr />
@@ -186,14 +176,11 @@ export default function SocialMedia() {
                       <span className="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
                         <span className="elementor-toggle-icon-closed"><i className="fas fa-caret-right"></i></span>
                       </span>
-                      <a className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4" tabIndex="4">Isn’t Awords A Waste Of Money? I’ve Tried It And It ‘Never Worked’</a>
+                      <a className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4" tabIndex="4">Can VBSTECH SOLUTIONS help with compliance and certifications?</a>
                     </div>
                     <div className="collapse" id="collapseExample4">
                       <div className="card card-body border-0 fs">
-                        Running a Google AdWords campaign without knowing how to use the platform can quickly turn into a money pit. I once ran a campaign for a client and within minutes, I was able to save almost 50% of their ad spend. They were serving ads for completely irrelevant search terms!
-                        Another client was using a generic Google helpline to run their campaigns, and I was able to cut their cost per click in half – from $2 to $1. They had been spending twice as much as they needed to! It’s not unusual for me to take over an internally managed AdWords account and improve the average clickthrough rate from 1-2% to over 10% (and sometimes even higher). With those results, the returns on ad spend can be many times greater than the initial investment.
-                        All of those metrics are great, but I can also help you set up conversion tracking so you can track monetary values. After all, that’s the ultimate metric to measure – how much money your ads are actually generating for your business.
-                      </div>
+                      Yes, we offer services related to securing relevant certifications and meeting compliance requirements. Our team provides expert data analysis and security solutions to ensure that your business adheres to industry standards and regulations.                      </div>
                     </div>
                   </div>
                   <hr />
@@ -202,12 +189,11 @@ export default function SocialMedia() {
                       <span className="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
                         <span className="elementor-toggle-icon-closed"><i className="fas fa-caret-right"></i></span>
                       </span>
-                      <a className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5" tabIndex="5"> Why Shouldn't I Just Run My Adwords In-House?</a>
+                      <a className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5" tabIndex="5">How does VBSTECH SOLUTIONS approach new projects?</a>
                     </div>
                     <div className="collapse" id="collapseExample5">
                       <div className="card card-body border-0 fs">
-                        Content for the fourth question goes here.
-                      </div>
+                      We approach each new project with a focus on understanding your specific business needs and goals. Our agile development process allows us to adapt and innovate throughout the project lifecycle, ensuring that we deliver a solution that meets your expectations and drives success.                      </div>
                     </div>
                   </div>
                   <hr />
@@ -216,11 +202,11 @@ export default function SocialMedia() {
                       <span className="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
                         <span className="elementor-toggle-icon-closed"><i className="fas fa-caret-right"></i></span>
                       </span>
-                      <a className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample4" tabIndex="6">  Why Does A Campaign Need Managed & Optimized Each Month?</a>
+                      <a className="elementor-toggle-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample4" tabIndex="6">Is VBSTECH SOLUTIONS able to handle projects of all sizes?</a>
                     </div>
                     <div className="collapse" id="collapseExample6">
                       <div className="card card-body border-0 fs">
-                        Content for the fourth question goes here.
+                      Absolutely. Whether you are a small startup or a large enterprise, we tailor our services to fit the size and scope of your project. Our dedicated staff and resources are designed to scale with your needs and provide the support necessary for any project size.
                       </div>
                     </div>
                   </div>

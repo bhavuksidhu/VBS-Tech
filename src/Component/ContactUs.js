@@ -65,9 +65,7 @@ export default function ContactUs() {
           </div>
 
         </div>
-      </div>
-         <PricingCards/>
-         
+      </div>         
          <div className="container-fluid consultation-form  prent">
          <div className="row justify-content-center">
         <div className="col-md-8"  data-aos="fade-up">
