@@ -1,0 +1,25 @@
+.whatsapp_button_box{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.whatsapp_button{
+    padding: 10px;
+    border-radius: 35%;
+    display: inline-block;
+    background: linear-gradient(-45deg, var(--color4), var(--color3), var(--color2), var(--color1));
+    background-size: 600%;
+    animation: animate 16s linear infinite;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px;
+    --color1: #017854;
+    --color2: #1bff5f;
+    --color3: #017854;
+    --color4: #1bff5f;
+}
+
+.whatsapp_button i{
+    
+    font-size: 3rem !important;
+    color: #fff;
+}

@@ -8,6 +8,7 @@ import Navbar from './Navbar/Navbar';
 import Marketo from './Component/Marketo';
 import Webdesign from './Component/Webdesign';
 import PaidSearch from './Component/PaidSearch';
+import Whatsapp from './Whatsapp/Whatsapp';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/merkto" element={<Marketo/>} />
         </Routes>
       </Router>
+      <Whatsapp/>
     </div>
   );
 }
