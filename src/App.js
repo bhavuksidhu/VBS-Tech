@@ -14,6 +14,7 @@ import Ecommerce from './Component/Ecommerce';
 import Digitalmarketing from './Component/Digitalmarketing';
 import Graphicdesign from './Component/Graphicdesign';
 
+import Whatsapp from './Whatsapp/Whatsapp';
 
 function App() {
   const [nav, setNav] = useState(false);
@@ -37,6 +38,7 @@ function App() {
           <Route path="/graphicdesign" element={<Graphicdesign/>} />
         </Routes>
       </Router>
+      <Whatsapp/>
     </div>
   );
 }

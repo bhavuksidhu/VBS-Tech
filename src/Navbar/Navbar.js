@@ -15,24 +15,24 @@ export default function Navbar({ cart }) {
   };
 
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg back-groundd">
-        <div className="container d-flex justify-content-between div1">
-        <NavLink  exact to="/">
-          <img src={img1} className="logoImg"  alt="Logo" />
-          </NavLink>
-        
-          <div className='d-flex navbaricon'>
-            <NavLink className="nav-link change text-light btn1 ms-4 mt-2 btnn" style={{ backgroundColor: "black" }} to="/contactus" activeClassName="active" onClick={closeOffcanvas}>Contact Us</NavLink>
-            <button className="navbar-toggler" type="button" onClick={toggleOffcanvas} aria-expanded={isOffcanvasOpen ? "true" : "false"}>
-              <span className="navbar-toggler-icon"></span>
-            </button>
-          </div>
-
-          <div className={`collapse navbar-collapse ${isOffcanvasOpen ? 'show' : ''}`} id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gapes">
-              <li className="nav-item">
-                <NavLink className="nav-link" exact to="/" activeClassName="active" onClick={closeOffcanvas}>Home</NavLink>
+    <>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="/">
+            <img src={img1} className="ms-3 mb-2 " alt="Logo" style={{ width: "100px" }} />
+          </a>
+              
+        <div className='d-flex hww'>
+        <NavLink className="nav-link change text-light btn1  ms-4 mt-2 btnn" style={{ backgroundColor: "black" }} to="/contactus" activeClassName="active">Contact Us</NavLink>
+        <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style={{ border: "none" }}>
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          </div>  
+         
+          <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul className="navbar-nav mb-2 mb-lg-0">
+              <li className="nav-item ms-4 mt-2">
+                <NavLink className="nav-link change text-dark" to="/" exact activeClassName="active">Home</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/socialmedia" activeClassName="active" onClick={closeOffcanvas}>About</NavLink>
@@ -46,8 +46,8 @@ export default function Navbar({ cart }) {
               <li className="nav-item">
                 <NavLink className="nav-link" to="/merkto" activeClassName="active" onClick={closeOffcanvas}>Blog</NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link "  to="/contactus" activeClassName="active" onClick={closeOffcanvas}>Contact Us</NavLink>
+              <li className="nav-item ms-4 mt-2">
+                <NavLink className="nav-link change text-light" style={{ backgroundColor: "black" }} to="/contactus" activeClassName="active">Contact Us</NavLink>
               </li>
             </ul>
           </div>
