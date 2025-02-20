@@ -1,14 +1,15 @@
 import React, { useEffect } from 'react';
-
-import './Footer.css'
+import './Footer.css';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
   const phoneNumber = '+91 7300720901';
   const emailAddress = 'contact@vbstechsolutions.com';
+
   const handlePhoneClick = () => {
     window.open(`tel:${phoneNumber}`);
   };
+
   useEffect(() => {
     // Scroll to the top of the page on component mount
     window.scrollTo(0, 0);
@@ -17,6 +18,7 @@ export default function Footer() {
   const handleEmailClick = () => {
     window.location.href = `mailto:${emailAddress}`;
   };
+
   const openGoogleMaps = () => {
     // Construct the address to be opened in Google Maps
     var address = "Bestech solutions , near pyarelal hospital , Bank colony , Modinagar 201204";
@@ -24,119 +26,76 @@ export default function Footer() {
     var encodedAddress = encodeURIComponent(address);
     // Open Google Maps in a new tab
     window.open("https://www.google.com/maps/search/?api=1&query=" + encodedAddress, "_blank");
-  }
+  };
+
   return (
     <div>
-     <div class="container-fluid  " style={{backgrounColor: "#FAFAFB"}}>
-    <div class=" p-5 m-5 text-dark">
-      <div class="row mt-5  text-dark">
-        <div class="col-lg-4 mt-5 text-start text-dark col-md-6 col-sm-6 allaresame text-dark mb-5">
-          <h5><b>VBSTECH SOLUTIONS</b></h5>
-          <p class=" pt-3 pj cd">
-            We are completely dedicated to our business. Do not hesitate to contact us at any time, we will be happy to
-            implement all your ideas to life.
-          </p>
-          <div class="d-flex justify-content-evenly col-lg-7">
-            <i class="fa-brands fa-twitter  fs-4"></i>
-          <i class="fa-brands fa-facebook fs-4"></i>
-          <i class="fa-brands fa-instagram fs-4"></i>
-          <i class="fa-brands fa-github  fs-4"></i>
-          </div>
-          
-        </div>
-        <div class="col-lg-2 mt-5 d-flex justify-content-center col-md-6 col-sm-6 himu">
-          <div>
-            <h5> <b>Our Links</b></h5>
-            <p class="pj pt-3 br">About </p>
-            <p class="pj br">Project </p>
-            <p class="pj br">Service </p>
-            <p class="pj br"> Blog</p>
-          </div>
-
-
-
-        </div>
-        <div class=" col-lg-3 mt-5 boy d-flex justify-content-start col-md-6 col-sm-6">
-          <div>
-            <h5> <b>Our Services</b></h5>
-            <p class="pj  pt-3 br">E-commerce Solutions</p>
-            <p class="pj br"> Graphics Design</p>
-            <p class="pj br"> Web Development</p>
-            <p class="pj br"> Mobile App Development</p>
-          </div>
-
-        </div>
-        <div class="col-lg-3 mt-5 boy d-flex justify-content-center col-md-6 col-sm-6 ">
-          <div>
-            <h5> <b>Contact Us</b></h5>
-            <p class="pt-3 mb-0">
-              <span className='spn'>
-              <i class="fa-solid fa-phone"></i><p className=' mb-3 text-muted pj'>+91 7300720901</p>
-              </span>
-           
-              <span className='spn'>
-           <i class="fa-solid fa-envelope">   </i><p className=' mb-3 text-muted pj'>contact@vbstechsolutions.com</p>
-           </span>
-           <span className='spn'>
-            <div>
-            <i class="fa-solid fa-location-dot"></i>
-            </div>
-            <div class="col-lg-2 mt-5 d-flex justify-content-center col-md-6 col-sm-6 himu">
-              <div>
-                <h5> <b>Our Links</b></h5>
-                <Link to="/socialmedia"><p class="pj pt-3 br" >About </p></Link>
-                <Link to="/paidsearch"> <p class="pj br">Project </p></Link>
-                <Link to="/webdesign"><p class="pj br">Service </p></Link>
-                <Link to="/merkto"><p class="pj br">Blog</p></Link>
-                <Link to="/contactus"><p class="pj br">Contact Us</p></Link>
-              
-               
-                
-                
-                
+      <div className="container-fluid" style={{ backgroundColor: "#FAFAFB" }}>
+        <div className="p-5 m-5 text-dark">
+          <div className="row mt-5 text-dark">
+            {/* VBSTECH SOLUTIONS Section */}
+            <div className="col-lg-4 mt-5 text-start text-dark col-md-6 col-sm-6 allaresame text-dark mb-5">
+              <h5><b>VBSTECH SOLUTIONS</b></h5>
+              <p className="pt-3 pj cd">
+                We are completely dedicated to our business. Do not hesitate to contact us at any time, we will be happy to
+                implement all your ideas to life.
+              </p>
+              <div className="d-flex justify-content-evenly col-lg-7">
+                <i className="fa-brands fa-twitter fs-4"></i>
+                <i className="fa-brands fa-facebook fs-4"></i>
+                <i className="fa-brands fa-instagram fs-4"></i>
+                <i className="fa-brands fa-github fs-4"></i>
               </div>
             </div>
-            <div class=" col-lg-3 mt-5 boy d-flex justify-content-start col-md-6 col-sm-6">
+
+            {/* Links Section */}
+            <div className="col-lg-2 mt-5 d-flex justify-content-center col-md-6 col-sm-6 himu">
               <div>
-                <h5> <b>Our Services</b></h5>
-                <Link to="/webdevelopment"> <p class="pj br pt-3"> Web Development</p></Link>
-                <Link to="/mobileappdevelopment"><p class="pj br"> Mobile App Development</p></Link>
-                <Link to="/webdesignn"><p class="pj br">Web Design</p></Link>
-                <Link to="/ecommerce"><p class="pj br">E-commerce Solutions</p></Link>
-                <Link to="/digitalmarketing"><p class="pj  br">Digital Marketing</p></Link>
-                <Link to="/graphicdesign"><p class="pj br"> Graphics Design</p></Link>
-                
-                
-               
-                
+                <h5><b>Our Links</b></h5>
+                <p className="pj pt-3 br"><Link to="/socialmedia">About</Link></p>
+                <p className="pj br"><Link to="/paidsearch">Project</Link></p>
+                <p className="pj br"><Link to="/webdesign">Service</Link></p>
+                <p className="pj br"><Link to="/merkto">Blog</Link></p>
               </div>
             </div>
-            <div class="col-lg-3 mt-5 boy d-flex justify-content-center col-md-6 col-sm-6 ">
+
+            {/* Services Section */}
+            <div className="col-lg-3 mt-5 boy d-flex justify-content-start col-md-6 col-sm-6">
               <div>
-                <h5> <b>Contact Us</b></h5>
-                <p class="pt-3 mb-0">
+                <h5><b>Our Services</b></h5>
+                <p className="pj pt-3 br"><Link to="/webdevelopment">Web Development</Link></p>
+                <p className="pj br"><Link to="/mobileappdevelopment">Mobile App Development</Link></p>
+                <p className="pj br"><Link to="/webdesignn">Web Design</Link></p>
+                <p className="pj br"><Link to="/ecommerce">E-commerce Solutions</Link></p>
+                <p className="pj br"><Link to="/digitalmarketing">Digital Marketing</Link></p>
+                <p className="pj br"><Link to="/graphicdesign">Graphics Design</Link></p>
+              </div>
+            </div>
+
+            {/* Contact Section */}
+            <div className="col-lg-3 mt-5 boy d-flex justify-content-center col-md-6 col-sm-6">
+              <div>
+                <h5><b>Contact Us</b></h5>
+                <p className="pt-3 mb-0">
                   <span className='spn' onClick={handlePhoneClick}>
-                    <i class="fa-solid fa-phone"></i> <p className='mb-3 text-muted pj'>{phoneNumber}</p>
+                    <i className="fa-solid fa-phone"></i> <p className='mb-3 text-muted pj'>{phoneNumber}</p>
                   </span>
                   <span className='spn' onClick={handleEmailClick}>
                     <i className="fa-solid fa-envelope"></i>
                     <p className='mb-3 text-muted pj'>{emailAddress}</p>
                   </span>
                   <span className='spn' onClick={openGoogleMaps}>
-                    <div>
-
-         <div >
-            <p className=' mb-0 pj'>Vbs Tech Solutions India Pvt Ltd </p>
-            <p className=' mb-0 pj'>Near North Rapid station Opp.</p>
-            <p className=' mb-0 pj'>Delhi - Meerut Road</p>
-            <p className=' mb-0 pj'>201204</p>
-         </div>
-           </span>
-          
-</p>
+                    <i className="fa-solid fa-location-dot"></i>
+                    <p className="mb-0 pj">Vbs Tech Solutions India Pvt Ltd</p>
+                    <p className="mb-0 pj">Near North Rapid Station Opp.</p>
+                    <p className="mb-0 pj">Delhi - Meerut Road, 201204</p>
+                  </span>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
