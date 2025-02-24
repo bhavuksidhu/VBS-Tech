@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import '../App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import axios from 'axios';
+import emailjs from 'emailjs-com'; // Import EmailJS
+import { toast, ToastContainer } from 'react-toastify'; // Import Toastify
+import 'react-toastify/dist/ReactToastify.css'; // Import the required styles
 
 export default function Form() {
   const [formData, setFormData] = useState({
@@ -28,14 +30,54 @@ export default function Form() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('https://your-backend-endpoint.com/api/form', formData)
-      .then(response => {
-        console.log('Form submitted successfully:', response.data);
-        // Handle successful submission (e.g., show a success message, clear the form, etc.)
+
+    // Setup templateParams for EmailJS
+    const templateParams = {
+      name: formData.name,
+      email: formData.email,
+      companyName: formData.companyName,
+      phoneNumber: formData.phoneNumber,
+      url: formData.url,
+      businessDetails: formData.businessDetails,
+    };
+
+    // Send email using EmailJS
+    emailjs.send('service_utzjgd4', 'template_u435sqj', templateParams, 'X6D3yVKtS79M-d3tb')
+      .then((response) => {
+        // Log the entire response to check its structure
+        // console.log('Response from EmailJS:', response.status);
+        
+        if (response.status === 200) {
+          // Show success toast message
+          toast.success('Details sent successfully!', {
+            // position: toast.POSITION.TOP_CENTER,
+            autoClose: 2000, // Toast will auto close after 2 seconds
+          });
+
+          // Reset the form data after successful submission
+          setFormData({
+            name: '',
+            email: '',
+            companyName: '',
+            phoneNumber: '',
+            url: '',
+            businessDetails: ''
+          });
+        } else {
+          // If status is not 200, show error toast
+          toast.error('There was an error submitting the form.', {
+            // position: toast.POSITION.TOP_CENTER,
+            autoClose: 2000,
+          });
+        }
       })
-      .catch(error => {
+      .catch((error) => {
+        // Log any errors here to debug
         console.error('There was an error submitting the form:', error);
-        // Handle submission error (e.g., show an error message)
+        toast.error('There was an error submitting the form.', {
+          // position: toast.POSITION.TOP_CENTER,
+          autoClose: 2000,
+        });
       });
   };
 
@@ -110,9 +152,12 @@ export default function Form() {
           ></textarea>
         </div>
         <div className="text-center mb-4">
-          <button type="submit" className="btn btn-primary">Send Message <i aria-hidden="true" class="fas fa-arrow-right"></i></button>
+          <button type="submit" className="btn btn-primary">Send Message <i aria-hidden="true" className="fas fa-arrow-right"></i></button>
         </div>
       </form>
+
+      {/* Toast Container for displaying toast notifications */}
+      <ToastContainer />
     </>
   );
 }
