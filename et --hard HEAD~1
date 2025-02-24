@@ -1,0 +1,286 @@
+[33mcommit ca6e141b3d3574c94796abb96f2cb40529179705[m[33m ([m[1;36mHEAD -> [m[1;32manubhav[m[33m, [m[1;31morigin/anubhav[m[33m)[m
+Merge: f3ade51 61125cc
+Author: Bhavuk Sidhu <bhavuksidhu@gmail.com>
+Date:   Fri Feb 21 17:27:12 2025 +0530
+
+    Merge branch 'anubhav' of https://github.com/bhavuksidhu/VBS-Tech into anubhav
+
+[33mcommit f3ade5154f72f747ec3c93d623b1fe3d330e8416[m
+Author: Bhavuk Sidhu <bhavuksidhu@gmail.com>
+Date:   Fri Feb 21 17:24:56 2025 +0530
+
+    flip effect
+
+[33mcommit 61125cc0320dfc2e9deef54dd544de8fd071d9cc[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Bhavuk Siddhu <bhavuksidhu@gmail.com>
+Date:   Fri Feb 21 13:47:08 2025 +0530
+
+    Nav bar changes
+
+[33mcommit bbc975b6c1f51d74e6b026a2660176f1a84477b3[m
+Author: Bhavuk Sidhu <bhavuksidhu@gmail.com>
+Date:   Thu Feb 20 17:58:07 2025 +0530
+
+    added portfolio
+
+[33mcommit 8898c66aae5ba8d322d99a3727e0db83d83caeea[m[33m ([m[1;32mmain[m[33m)[m
+Author: Bhavuk Sidhu <bhavuksidhu@gmail.com>
+Date:   Thu Feb 20 10:40:59 2025 +0530
+
+    footer
+
+[33mcommit 2770bee5358314d8cdae539a84720a4e5e19f313[m
+Merge: 5f5a767 f42fcc0
+Author: its-mr-raghav <raghavrajsharma112@gmail.com>
+Date:   Thu Aug 29 23:26:18 2024 +0530
+
+    conflicts resolve
+
+[33mcommit f42fcc07abc8930a1d5c45fb4fea175e424e7787[m[33m ([m[1;31morigin/nitin[m[33m)[m
+Author: Nitin <nitinkumar121@outlook.in>
+Date:   Wed Aug 28 12:35:25 2024 +0530
+
+    added whatsapp icon
+
+[33mcommit 5f5a7675bf2b1bb2b7646e6bf9960e4193dabc15[m
+Author: its-mr-raghav <raghavrajsharma112@gmail.com>
+Date:   Fri Aug 9 23:32:09 2024 +0530
+
+    change content
+
+[33mcommit 54f461e99af19c250ad1b72f3ddc76adad4a5d73[m
+Author: ayush <ayushchaudhary03032002@gmail.com>
+Date:   Mon Jul 29 23:50:08 2024 -0700
+
+    final changes in the contact page
+
+[33mcommit 9a360ae8f3a558da24da5bd7aa8b97b974610fb8[m
+Author: ayush <ayushchaudhary03032002@gmail.com>
+Date:   Mon Jul 29 22:41:31 2024 -0700
+
+    changes in the project page
+
+[33mcommit a6ac5d405ac8c7b6306580e627a43320d05b0116[m
+Author: ayush <ayushchaudhary03032002@gmail.com>
+Date:   Mon Jul 29 01:50:00 2024 -0700
+
+    final changes in the about page
+
+[33mcommit 2943f7537a9f0c3a9fee1a83fc6654b87612fa79[m
+Author: ayush <ayushchaudhary03032002@gmail.com>
+Date:   Thu Jul 25 05:07:00 2024 -0700
+
+    changes in footer
+
+[33mcommit c0aae05b827031faf22a6ee20911af43eef16537[m
+Author: ayush <ayushchaudhary03032002@gmail.com>
+Date:   Thu Jul 25 00:46:00 2024 -0700
+
+    final updation on the services page
+
+[33mcommit 97fa9510dc733d5e4d825046b3447aa387b6f520[m
+Author: ayush <ayushchaudhary03032002@gmail.com>
+Date:   Wed Jul 24 22:11:17 2024 -0700
+
+    updating web development page
+
+[33mcommit e1b229c542e7744135067e7b39b6a4260a75ca17[m
+Author: ayush <ayushchaudhary03032002@gmail.com>
+Date:   Wed Jul 24 05:14:37 2024 -0700
+
+    updation in the landing page
+
+[33mcommit e6cd31625b10f7bdd2a83e324a63578a39a6e2c0[m
+Merge: 6cce420 27e331a
+Author: ayush <ayushchaudhary03032002@gmail.com>
+Date:   Wed Jul 24 03:19:41 2024 -0700
+
+    fix conflicts
+
+[33mcommit 6cce420e59bc68a40ac71ee0f96f7395ccb68df8[m
+Author: ayush <ayushchaudhary03032002@gmail.com>
+Date:   Wed Jul 24 03:11:33 2024 -0700
+
+    routing changes
+
+[33mcommit 26342058bbca553833fa5c1234ca525633ac2776[m
+Author: ayush <ayushchaudhary03032002@gmail.com>
+Date:   Thu Jul 18 05:33:18 2024 -0700
+
+    changess
+
+[33mcommit dd0cc4c4b52939e1a07670b0f476d2723c345edf[m
+Author: ayush <ayushchaudhary03032002@gmail.com>
+Date:   Thu Jul 18 05:26:30 2024 -0700
+
+    changes in service page
+
+[33mcommit adec2459f10053cdc36ed5dda181f28b55f86761[m
+Author: ayush <ayushchaudhary03032002@gmail.com>
+Date:   Tue Jul 16 23:29:26 2024 -0700
+
+    changes in the footer
+
+[33mcommit 27e331a95463fd94a7d9f4f0691968bfdd4de6a0[m
+Author: ayush <ayushchaudhary03032002@gmail.com>
+Date:   Tue Jul 16 22:16:49 2024 -0700
+
+     add a location and activate social media links
+
+[33mcommit fc8852edb5d4655a256e2a006a88bf1217341781[m
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Fri Jul 12 05:07:11 2024 -0700
+
+    add phone and email
+
+[33mcommit 9654f5d8df692a4c04d20bd98e7516e8edc38390[m
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Fri Jul 12 04:19:30 2024 -0700
+
+    updation in the service pages
+
+[33mcommit 691319805b5256db9d8b5858b9e026e07692c93c[m
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Thu Jul 11 23:24:13 2024 -0700
+
+    upadation on blog page and contact page
+
+[33mcommit c6049caed63d8d867a2d08d818efae197e2ca935[m
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Wed Jul 10 04:35:04 2024 -0700
+
+    updatation on the contact us
+
+[33mcommit 18e07cf9aecb618f77e2f06fb8b7ee514fd8de47[m
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Wed Jul 10 03:15:22 2024 -0700
+
+    changes in footer
+
+[33mcommit 8695c672913daee2c301474b8c96bd6b6c265a81[m
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Wed Jul 10 00:58:47 2024 -0700
+
+    aboutus updation
+
+[33mcommit 733536d62f9c9a95e8c0c48a2064055e480e499d[m
+Merge: 6d01b3b 06c3421
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Wed Jul 10 00:52:14 2024 -0700
+
+    resolve conflict
+
+[33mcommit 6d01b3b41b303bb2aa7d87d21bb619c25090b752[m
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Tue Jul 9 03:33:49 2024 -0700
+
+    vbs update
+
+[33mcommit 63e2d7283134581c59dc233ca44fbf08b8352798[m
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Tue Jul 9 03:21:50 2024 -0700
+
+    vbs website
+
+[33mcommit 5d02bf9dccc8f0008dd0d18a544d4b8bc728280b[m[33m ([m[1;31morigin/akash[m[33m)[m
+Merge: 55e9991 06c3421
+Author: Bhavuk Siddhu <48379031+bhavuksidhu@users.noreply.github.com>
+Date:   Tue Jul 9 15:38:27 2024 +0530
+
+    Merge branch 'main' into akash
+
+[33mcommit 55e9991e20be78b0aa987e106a9bfa4158d9c284[m
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Tue Jul 9 02:58:48 2024 -0700
+
+    landing page updation
+
+[33mcommit 06c342191a90c1a361d934202ad383b0b64f8fce[m
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Mon Jul 8 06:32:23 2024 -0700
+
+    changes in react logo to vbs tech logo
+
+[33mcommit bfd3d91685cfb2aa5a34408f66e009f5c5e3375f[m
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Mon Jul 8 06:32:23 2024 -0700
+
+    changes in react logo to vbs tech logo
+
+[33mcommit 6dab65ad683b112ef83b76a2376544985119e272[m
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Mon Jul 8 06:10:25 2024 -0700
+
+    changes in icon
+
+[33mcommit 771dac7e1a8007d1fd778fcddfa58f6d4e284ba2[m
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Mon Jul 8 06:10:25 2024 -0700
+
+    changes in icon
+
+[33mcommit 8ea17acd3f8a225d01bbaeca05f99bd06d21049a[m
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Mon Jul 8 05:40:55 2024 -0700
+
+     add changes in footer and landing page
+
+[33mcommit f59e19add246251145fda8cf575229d9e15e4025[m
+Author: AyushChaudhary <ayushchaudhary03032002@gmail.com>
+Date:   Mon Jul 8 05:40:55 2024 -0700
+
+     add changes in footer and landing page
+
+[33mcommit 2e03c843fc280d2b0b34b26c8adf2ac26ca07df2[m
+Author: Akash Sharma <akashsharma88917@gmail.com>
+Date:   Mon May 27 15:49:40 2024 +0530
+
+     add changes in landing page
+
+[33mcommit 89492908efef153f9b7f35cba0074b0508b2b856[m
+Author: Akash Sharma <akashsharma88917@gmail.com>
+Date:   Sat May 25 18:57:18 2024 +0530
+
+     make responsive all the pages
+
+[33mcommit 9f7f308cbc65cbce5b90b0255901e579a6d18aac[m
+Author: Akash Sharma <akashsharma88917@gmail.com>
+Date:   Thu May 23 10:31:37 2024 +0530
+
+    make responsive pages
+
+[33mcommit 6ce4f9b1abc3f6c1a6e41986e21d8c4bb420576b[m
+Author: Akash Sharma <akashsharma88917@gmail.com>
+Date:   Mon May 20 13:00:12 2024 +0530
+
+     add a social media page
+
+[33mcommit 21777cd873f2dd3f92a2d1b8a5954de183c16ef9[m
+Author: Akash Sharma <akashsharma88917@gmail.com>
+Date:   Fri May 17 17:37:42 2024 +0530
+
+    make a web design page UI
+
+[33mcommit b44d77cda0ec31ad90433cfc70218d156bf96baf[m
+Author: Akash Sharma <akashsharma88917@gmail.com>
+Date:   Thu May 16 17:09:21 2024 +0530
+
+    make  a marketo ui today
+
+[33mcommit c46329d52518f27a65e10eb06280891ba1ad367b[m
+Author: Akash Sharma <akashsharma88917@gmail.com>
+Date:   Wed May 15 18:23:24 2024 +0530
+
+    contactus page
+
+[33mcommit c13010b9dc6444dd0a79be27eba5f2bcf9da0b73[m
+Author: Akash Sharma <akashsharma88917@gmail.com>
+Date:   Mon May 13 16:07:51 2024 +0530
+
+    landing page designing
+
+[33mcommit 9bceaaa475a56601fc2f05d592cbc7c30b223a01[m
+Author: Bhavuk Siddhu <48379031+bhavuksidhu@users.noreply.github.com>
+Date:   Fri May 10 10:45:18 2024 +0530
+
+    Initial commit
