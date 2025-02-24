@@ -42,7 +42,7 @@ export default function Form() {
     };
 
     // Send email using EmailJS
-    emailjs.send('service_utzjgd4', 'template_u435sqj', templateParams, 'X6D3yVKtS79M-d3tb')
+    emailjs.send('service_q0pkkfh', 'template_aaud91p', templateParams, '4htHB7ZxzTZJAVIoo')
       .then((response) => {
         // Log the entire response to check its structure
         // console.log('Response from EmailJS:', response.status);
