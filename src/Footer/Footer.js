@@ -30,11 +30,11 @@ export default function Footer() {
 
   return (
     <div>
-      <div className="container-fluid" style={{ backgroundColor: "#FAFAFB" }}>
-        <div className="p-5 m-5 text-dark">
-          <div className="row mt-5 text-dark">
+      <div className="container-fluid" style={{ backgroundColor: "black" }}>
+        <div className="p-5 m-5 text-white">
+          <div className="row mt-5 text-white">
             {/* VBSTECH SOLUTIONS Section */}
-            <div className="col-lg-4 mt-5 text-start text-dark col-md-6 col-sm-6 allaresame text-dark mb-5">
+            <div className="col-lg-4 mt-5 text-start text-dark col-md-6 col-sm-6 allaresame text-white mb-5">
               <h5><b>VBSTECH SOLUTIONS</b></h5>
               <p className="pt-3 pj cd">
                 We are completely dedicated to our business. Do not hesitate to contact us at any time, we will be happy to
@@ -49,40 +49,40 @@ export default function Footer() {
             </div>
 
             {/* Links Section */}
-            <div className="col-lg-2 mt-5 d-flex justify-content-center col-md-6 col-sm-6 himu">
+            <div className="col-lg-2 mt-5 d-flex justify-content-center col-md-6 col-sm-6 himu text-white">
               <div>
                 <h5><b>Our Links</b></h5>
-                <p className="pj pt-3 br"><Link to="/socialmedia">About</Link></p>
-                <p className="pj br"><Link to="/paidsearch">Project</Link></p>
-                <p className="pj br"><Link to="/webdesign">Service</Link></p>
-                <p className="pj br"><Link to="/merkto">Blog</Link></p>
+                <p className="pj pt-3 br color-white"><Link to="/socialmedia" style={{ color: 'whitesmoke' }}>About</Link></p>
+                <p className="pj br "><Link to="/paidsearch" style={{ color: 'whitesmoke' }}>Project</Link></p>
+                <p className="pj br "><Link to="/webdesign" style={{ color: 'whitesmoke' }}>Service</Link></p>
+                <p className="pj br "><Link to="/merkto" style={{ color: 'whitesmoke' }}>Blog</Link></p>
               </div>
             </div>
 
             {/* Services Section */}
-            <div className="col-lg-3 mt-5 boy d-flex justify-content-start col-md-6 col-sm-6">
-              <div>
+            <div className="col-lg-3 mt-5 boy d-flex justify-content-start col-md-6 col-sm-6 text-white">
+              <div >
                 <h5><b>Our Services</b></h5>
-                <p className="pj pt-3 br"><Link to="/webdevelopment">Web Development</Link></p>
-                <p className="pj br"><Link to="/mobileappdevelopment">Mobile App Development</Link></p>
-                <p className="pj br"><Link to="/webdesignn">Web Design</Link></p>
-                <p className="pj br"><Link to="/ecommerce">E-commerce Solutions</Link></p>
-                <p className="pj br"><Link to="/digitalmarketing">Digital Marketing</Link></p>
-                <p className="pj br"><Link to="/graphicdesign">Graphics Design</Link></p>
+                <p className="pj pt-3 br "><Link to="/webdevelopment" style={{ color: 'whitesmoke' }}>Web Development</Link></p>
+                <p className="pj br"><Link to="/mobileappdevelopment" style={{ color: 'whitesmoke' }}>Mobile App Development</Link></p>
+                <p className="pj br "><Link to="/webdesignn" style={{ color: 'whitesmoke' }}>Web Design</Link></p>
+                <p className="pj br "><Link to="/ecommerce" style={{ color: 'whitesmoke' }}>E-commerce Solutions</Link></p>
+                <p className="pj br "><Link to="/digitalmarketing" style={{ color: 'whitesmoke' }}>Digital Marketing</Link></p>
+                <p className="pj br "><Link to="/graphicdesign" style={{ color: 'whitesmoke' }}>Graphics Design</Link></p>
               </div>
             </div>
 
             {/* Contact Section */}
-            <div className="col-lg-3 mt-5 boy d-flex justify-content-center col-md-6 col-sm-6">
+            <div className="col-lg-3 mt-5 boy d-flex justify-content-center col-md-6 col-sm-6 text-white">
               <div>
                 <h5><b>Contact Us</b></h5>
-                <p className="pt-3 mb-0">
+                <p className="pt-3 mb-0 text-white">
                   <span className='spn' onClick={handlePhoneClick}>
-                    <i className="fa-solid fa-phone"></i> <p className='mb-3 text-muted pj'>{phoneNumber}</p>
+                    <i className="fa-solid fa-phone"></i> <p className='mb-3  pj'>{phoneNumber}</p>
                   </span>
                   <span className='spn' onClick={handleEmailClick}>
                     <i className="fa-solid fa-envelope"></i>
-                    <p className='mb-3 text-muted pj'>{emailAddress}</p>
+                    <p className='mb-3 pj '>{emailAddress}</p>
                   </span>
                   <span className='spn' onClick={openGoogleMaps}>
                     <i className="fa-solid fa-location-dot"></i>

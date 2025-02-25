@@ -16,12 +16,15 @@
   }
   .pww {
     height: fit-content;
+    color: whitesmoke;
   }
   .pj {
     font-size: small;
+    color: whitesmoke;
   }
   .cd {
     color: #52525B;
+    color: whitesmoke;
   }
   .br {
     color: #18181B;
@@ -36,20 +39,24 @@
     display: flex;
     position: relative;
     top: 5px;
+    color: whitesmoke;
   }
   .spn{
     display: flex;
     gap: 20px;
+    color: whitesmoke;
   }
   .fa-envelope{
     display: flex;
     position: relative;
     top: 5px;
+    color: whitesmoke;
   }
   .fa-location-dot{
     display: flex;
     position: relative;
     top: 5px;
+    color: whitesmoke;
   }
   .footers_section{
 margin: 3rem;
